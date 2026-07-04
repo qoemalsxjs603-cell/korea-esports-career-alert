@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "name": "Hibrain 교수/강사 채용",
+      "profile": "university",
+      "urls": [
+        "https://www.hibrain.net/recruitment",
+        "https://www.hibrain.net/recruitment/categories/JOB/categories/TPROF/recruits",
+        "https://www.hibrain.net/recruitment/categories/MJR/categories/AP/recruits"
+      ]
+    },
+    {
+      "name": "JinhakPro 교수/강사 채용",
+      "profile": "university",
+      "urls": [
+        "https://www.jinhakpro.com/"
+      ]
+    },
+    {
+      "name": "전문대학 교원 채용",
+      "profile": "university",
+      "urls": [
+        "https://www.procollege.kr/web/board/28584.do"
+      ]
+    },
+    {
+      "name": "Saramin 교수 e스포츠/게임 검색",
+      "profile": "university",
+      "urls": [
+        "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=%EA%B5%90%EC%88%98%20e%EC%8A%A4%ED%8F%AC%EC%B8%A0",
+        "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=%EA%B0%95%EC%82%AC%20e%EC%8A%A4%ED%8F%AC%EC%B8%A0",
+        "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=%EA%B5%90%EC%88%98%20%EA%B2%8C%EC%9E%84%ED%95%99"
+      ]
+    },
+    {
+      "name": "JobKorea 교수 e스포츠/게임 검색",
+      "profile": "university",
+      "urls": [
+        "https://www.jobkorea.co.kr/Search/?stext=%EA%B5%90%EC%88%98%20e%EC%8A%A4%ED%8F%AC%EC%B8%A0",
+        "https://www.jobkorea.co.kr/Search/?stext=%EA%B0%95%EC%82%AC%20e%EC%8A%A4%ED%8F%AC%EC%B8%A0",
+        "https://www.jobkorea.co.kr/Search/?stext=%EA%B5%90%EC%88%98%20%EA%B2%8C%EC%9E%84"
+      ]
+    }
+  ]
+}

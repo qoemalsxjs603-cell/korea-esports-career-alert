@@ -1,0 +1,217 @@
+{
+  "sources": [
+    {
+      "name": "KRAFTON Careers",
+      "profile": "esports",
+      "urls": [
+        "https://www.krafton.com/careers/jobs/"
+      ]
+    },
+    {
+      "name": "Smilegate Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://careers.smilegate.com/"
+      ]
+    },
+    {
+      "name": "NEXON Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://career.nexon.com/user/recruit/member/postList?joinCorp=NX"
+      ]
+    },
+    {
+      "name": "NEXON Games Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://www.nexongames.co.kr/careers/"
+      ]
+    },
+    {
+      "name": "NCSoft Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://careers.ncsoft.com/apply/list"
+      ]
+    },
+    {
+      "name": "Netmarble Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://company.netmarble.com/rem/www/noticelist.jsp"
+      ]
+    },
+    {
+      "name": "Kakao Games Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://careers.kakaogames.com/"
+      ]
+    },
+    {
+      "name": "Pearl Abyss Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://www.pearlabyss.com/ko-KR/Company/Careers/List"
+      ]
+    },
+    {
+      "name": "Neowiz Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://www.neowiz.com/neowiz/careers"
+      ]
+    },
+    {
+      "name": "Com2uS Group Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://recruit.com2us.com/"
+      ]
+    },
+    {
+      "name": "WEBZEN Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://company.webzen.com/careers/recruit/list"
+      ]
+    },
+    {
+      "name": "Shift Up Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://shiftup.co.kr/careers/"
+      ]
+    },
+    {
+      "name": "Wemade Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://www.wemade.com/Careers"
+      ]
+    },
+    {
+      "name": "NHN Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://recruit.nhn.com/"
+      ]
+    },
+    {
+      "name": "DevSisters Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://careers.devsisters.com/"
+      ]
+    },
+    {
+      "name": "Joycity Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://joycity.com/recruit"
+      ]
+    },
+    {
+      "name": "Mgame Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://www.mgamecorp.com/recruit/recruit.html"
+      ]
+    },
+    {
+      "name": "HYBE IM Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://hybeim.com/careers"
+      ]
+    },
+    {
+      "name": "OneStore Careers",
+      "profile": "game_business",
+      "urls": [
+        "https://www.onestorecorp.com/recruit"
+      ]
+    },
+    {
+      "name": "GameJob eSports",
+      "profile": "esports",
+      "urls": [
+        "https://www.gamejob.co.kr/Recruit/joblist?duty=44&menucode=duty",
+        "https://www.gamejob.co.kr/Recruit/joblist?duty=33&menucode=duty",
+        "https://www.gamejob.co.kr/Recruit/joblist?searchword=e%EC%8A%A4%ED%8F%AC%EC%B8%A0",
+        "https://www.gamejob.co.kr/Recruit/joblist?searchword=%EC%9D%B4%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+      ]
+    },
+    {
+      "name": "Saramin eSports Search",
+      "profile": "esports",
+      "urls": [
+        "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=e%EC%8A%A4%ED%8F%AC%EC%B8%A0",
+        "https://www.saramin.co.kr/zf_user/search?searchType=search&searchword=%EC%9D%B4%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+      ]
+    },
+    {
+      "name": "JobKorea eSports Search",
+      "profile": "esports",
+      "urls": [
+        "https://www.jobkorea.co.kr/Search/?stext=e%EC%8A%A4%ED%8F%AC%EC%B8%A0",
+        "https://www.jobkorea.co.kr/Search/?stext=%EC%9D%B4%EC%8A%A4%ED%8F%AC%EC%B8%A0"
+      ]
+    },
+    {
+      "name": "Tencent Korea-related Official",
+      "profile": "korea_global",
+      "urls": [
+        "https://careers.tencent.com/search.html?keyword=%E9%9F%A9",
+        "https://careers.tencent.com/search.html?keyword=Korea",
+        "https://careers.tencent.com/search.html?keyword=Korean"
+      ]
+    },
+    {
+      "name": "Tencent LinkedIn Korea-related",
+      "profile": "korea_global",
+      "urls": [
+        "https://www.linkedin.com/jobs/search/?keywords=Tencent%20Korea",
+        "https://www.linkedin.com/jobs/search/?keywords=Tencent%20Korean",
+        "https://www.linkedin.com/jobs/search/?keywords=Tencent%20Seoul"
+      ]
+    },
+    {
+      "name": "NetEase Korea-related Official",
+      "profile": "korea_global",
+      "urls": [
+        "https://hr.163.com/job-list.html?keyword=%E9%9F%A9",
+        "https://hr.163.com/job-list.html?keyword=Korea",
+        "https://hr.163.com/job-list.html?keyword=Korean"
+      ]
+    },
+    {
+      "name": "NetEase LinkedIn Korea-related",
+      "profile": "korea_global",
+      "urls": [
+        "https://www.linkedin.com/jobs/search/?keywords=NetEase%20Korea",
+        "https://www.linkedin.com/jobs/search/?keywords=NetEase%20Korean",
+        "https://www.linkedin.com/jobs/search/?keywords=NetEase%20Seoul"
+      ]
+    },
+    {
+      "name": "Garena Official Korea-related",
+      "profile": "korea_global",
+      "urls": [
+        "https://careers.garena.com/global/careers?keyword=Seoul",
+        "https://careers.garena.com/global/careers?keyword=Korea",
+        "https://careers.garena.com/global/careers?keyword=Korean"
+      ]
+    },
+    {
+      "name": "Garena LinkedIn Korea-related",
+      "profile": "korea_global",
+      "urls": [
+        "https://www.linkedin.com/jobs/search/?keywords=Garena%20Korea",
+        "https://www.linkedin.com/jobs/search/?keywords=Garena%20Korean",
+        "https://www.linkedin.com/jobs/search/?keywords=Garena%20Seoul"
+      ]
+    }
+  ]
+}
