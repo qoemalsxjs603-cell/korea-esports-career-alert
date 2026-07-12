@@ -1,0 +1,86 @@
+name: Focused Esports Job Alert
+
+on:
+  schedule:
+    # 2시간마다 실행 (UTC 기준이지만 주기가 목적이므로 시간대와 무관)
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "실행 방식"
+        required: true
+        default: "normal"
+        type: choice
+        options:
+          - normal
+          - test_email
+          - reset_baseline
+
+permissions:
+  contents: write
+
+concurrency:
+  group: focused-esports-job-alert
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: 저장소 불러오기
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: 패키지 설치
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: 공고 확인
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+        run: |
+          ACTION="${{ github.event.inputs.action }}"
+          if [ "$ACTION" = "test_email" ]; then
+            python job_alert.py --test-email
+          elif [ "$ACTION" = "reset_baseline" ]; then
+            python job_alert.py --reset-baseline
+          else
+            python job_alert.py
+          fi
+
+      - name: 기준값 저장
+        run: |
+          if git diff --quiet -- data/state.json; then
+            echo "변경된 기준값 없음"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/state.json
+          git commit -m "chore: update job alert state [skip ci]"
+
+          for i in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && \
+            git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            sleep 5
+          done
+          exit 1
