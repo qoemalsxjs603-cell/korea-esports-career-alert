@@ -1,0 +1,9 @@
+{
+  "recipient": "qoemalsxjs603@naver.com",
+  "subject_prefix": "[공고 수집기]",
+  "first_run_behavior": "baseline",
+  "browser_timeout_ms": 45000,
+  "max_detail_pages_per_source": 30,
+  "send_error_email": false,
+  "state_file": "data/state.json"
+}
