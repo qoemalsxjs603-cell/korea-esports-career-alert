@@ -1,5 +1,778 @@
 {
   "version": 2,
-  "sources": {},
-  "last_run": null
+  "sources": {
+    "krafton": {
+      "name": "크래프톤",
+      "category": "게임사",
+      "url": "https://www.krafton.com/careers/jobs/",
+      "keys": [
+        "015b7b0312638863a7891055",
+        "8a61568a41f9200c3a508514"
+      ],
+      "items": [
+        {
+          "key": "015b7b0312638863a7891055",
+          "title": "PUBG Esports",
+          "url": "https://www.pubgesports.com/",
+          "matched": "Esports"
+        },
+        {
+          "key": "8a61568a41f9200c3a508514",
+          "title": "PUBG Mobile Esports",
+          "url": "https://esports.pubgmobile.kr/",
+          "matched": "Esports"
+        }
+      ],
+      "checked_at": "2026-07-12T14:18:01.970438+00:00"
+    },
+    "smilegate": {
+      "name": "스마일게이트",
+      "category": "게임사",
+      "url": "https://careers.smilegate.com/apply/announce",
+      "keys": [],
+      "items": [],
+      "checked_at": "2026-07-12T14:18:18.912555+00:00"
+    },
+    "kespa": {
+      "name": "한국e스포츠협회(KeSPA)",
+      "category": "공공기관",
+      "url": "https://www.e-sports.or.kr/news/notice?brd_id=&sh_brd_class=103&currPage=1&sh_value=",
+      "keys": [],
+      "items": [],
+      "checked_at": "2026-07-12T14:18:26.949069+00:00"
+    },
+    "ccon": {
+      "name": "충남콘텐츠진흥원",
+      "category": "공공기관",
+      "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&page=1",
+      "keys": [
+        "29def7422251f87ba0e18a2e",
+        "2ebd561be74955bd0878cc65",
+        "512f0fca198e3d0896ce90b4",
+        "6048e9a4f52e393c3903e1e3",
+        "6aac29ec0df4fe7b8d9c387b",
+        "818efecc6a0d796e4f00dcad",
+        "984c892015c4b687b3b32be5",
+        "a0f863f1f27a34aa5088a6d2",
+        "a352c6dabf6efd207a8c2237",
+        "c4fc06d7a64cc76f8e3282d1",
+        "c6a219e5d791a088f75b5e40",
+        "dbc3fe751a34237dd2474c68",
+        "dfefd39523821f41e7c2823a"
+      ],
+      "items": [
+        {
+          "key": "512f0fca198e3d0896ce90b4",
+          "title": "(재)충남콘텐츠진흥원 2026년 제1차 계약직 직원채용 최종합격 공고 및 임용등록 안내",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=372&page=1",
+          "matched": "직원채용"
+        },
+        {
+          "key": "2ebd561be74955bd0878cc65",
+          "title": "(재)충남콘텐츠진흥원 2026년 제1차 정규직 직원채용 최종 합격공고 및 임용등록 안내",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=371&page=1",
+          "matched": "직원채용"
+        },
+        {
+          "key": "818efecc6a0d796e4f00dcad",
+          "title": "(재)충남콘텐츠진흥원 2026년 제1차 계약직 직원채용 서류전형 합격자 및 면접전형 시행공…",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=370&page=1",
+          "matched": "직원채용"
+        },
+        {
+          "key": "c6a219e5d791a088f75b5e40",
+          "title": "(재)충남콘텐츠진흥원 2026년 제1차 정규직 직원채용 면접전형 세부일정 안내",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=369&page=1",
+          "matched": "직원채용"
+        },
+        {
+          "key": "29def7422251f87ba0e18a2e",
+          "title": "(재)충남콘텐츠진흥원 2026년 제1차 정규직 직원채용 필기전형 결과 및 인적성검사 시행공…",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=368&page=1",
+          "matched": "직원채용"
+        },
+        {
+          "key": "a0f863f1f27a34aa5088a6d2",
+          "title": "(재)충남콘텐츠진흥원 2026년 제1차 계약직 직원채용",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=367&page=1",
+          "matched": "직원채용"
+        },
+        {
+          "key": "6048e9a4f52e393c3903e1e3",
+          "title": "(재)충남콘텐츠진흥원 2026년 제1차 정규직 직원채용 서류전형 결과 및 필기전형 안내",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=366&page=1",
+          "matched": "직원채용"
+        },
+        {
+          "key": "dbc3fe751a34237dd2474c68",
+          "title": "(재)충남콘텐츠진흥원 2025년 제3차 계약직 직원채용 최종합격자 공고 및 임용등록 안내",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=365&page=1",
+          "matched": "직원채용"
+        },
+        {
+          "key": "c4fc06d7a64cc76f8e3282d1",
+          "title": "(재)충남콘텐츠진흥원 2025년 제3차 계약직 직원채용 서류전형 합격자 및 면접전형 시행공…",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=364&page=1",
+          "matched": "직원채용"
+        },
+        {
+          "key": "a352c6dabf6efd207a8c2237",
+          "title": "(재)충남콘텐츠진흥원 제1차 정규직 직원채용 공고",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=333&page=1",
+          "matched": "직원채용"
+        },
+        {
+          "key": "984c892015c4b687b3b32be5",
+          "title": "(재)충남콘텐츠진흥원 2025년 제3차 계약직 직원채용 공고",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=332&page=1",
+          "matched": "직원채용"
+        },
+        {
+          "key": "dfefd39523821f41e7c2823a",
+          "title": "(재)충남정보문화산업진흥원 2025년 제2차 계약직 직원채용 면접전형 합격자 공고",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=331&page=1",
+          "matched": "직원채용"
+        },
+        {
+          "key": "6aac29ec0df4fe7b8d9c387b",
+          "title": "(재)충남정보문화산업진흥원 2025년 제2차 계약직 직원채용 서류전형 합격자 및 면접전형 …",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=330&page=1",
+          "matched": "직원채용"
+        }
+      ],
+      "checked_at": "2026-07-12T14:18:36.134468+00:00"
+    },
+    "gcon": {
+      "name": "경기콘텐츠진흥원",
+      "category": "공공기관",
+      "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/list.do?menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+      "keys": [
+        "07c239dc1b32429c27d6fe49",
+        "20a209b213b3e8aec580983a",
+        "55749d2ec01489a836bccef0",
+        "63d84b246bb32a0d5ceb2642",
+        "7e67643c31ba3998a754127a",
+        "82bcb97182867fa6bfbae7ce",
+        "86af4822e81c4513c79ddb4b",
+        "d1567eddac6f02a570809c03"
+      ],
+      "items": [
+        {
+          "key": "86af4822e81c4513c79ddb4b",
+          "title": "2026년 경기콘텐츠진흥원 장애인 청년 인턴(체험형) 채용 공고",
+          "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/view.do?nttId=12132&menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+          "matched": "채용 공고"
+        },
+        {
+          "key": "20a209b213b3e8aec580983a",
+          "title": "경기콘텐츠진흥원 2026년 3분기 기간제근로자 채용 공고",
+          "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/view.do?nttId=12131&menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+          "matched": "채용 공고"
+        },
+        {
+          "key": "7e67643c31ba3998a754127a",
+          "title": "경기콘텐츠진흥원 2026년 2분기 기간제근로자 채용 공고",
+          "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/view.do?nttId=11944&menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+          "matched": "채용 공고"
+        },
+        {
+          "key": "d1567eddac6f02a570809c03",
+          "title": "[경기도] 2026년 「경기도 공공기관 장애인 청년 인턴 (체험형)」 채용 공고",
+          "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/view.do?nttId=11879&menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+          "matched": "채용 공고"
+        },
+        {
+          "key": "07c239dc1b32429c27d6fe49",
+          "title": "경기콘텐츠진흥원 글로벌마케팅팀 기간제근로자 채용 공고",
+          "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/view.do?nttId=11764&menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+          "matched": "채용 공고"
+        },
+        {
+          "key": "82bcb97182867fa6bfbae7ce",
+          "title": "경기콘텐츠진흥원 2026년 1분기 기간제근로자 채용 공고",
+          "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/view.do?nttId=11725&menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+          "matched": "채용 공고"
+        },
+        {
+          "key": "63d84b246bb32a0d5ceb2642",
+          "title": "경기콘텐츠진흥원 기업육성총괄팀 기간제근로자 채용 공고",
+          "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/view.do?nttId=11682&menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+          "matched": "채용 공고"
+        },
+        {
+          "key": "55749d2ec01489a836bccef0",
+          "title": "경기콘텐츠진흥원 대외협력실장 채용 공고",
+          "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/view.do?nttId=11250&menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+          "matched": "채용 공고"
+        }
+      ],
+      "checked_at": "2026-07-12T14:18:46.335388+00:00"
+    },
+    "t1": {
+      "name": "T1",
+      "category": "이스포츠 구단",
+      "url": "https://www.t1.gg/new-page-2",
+      "keys": [
+        "019a4aec4887d9d6286482fa",
+        "0b6372a1fb3c4ce432f8efde",
+        "1a3d714898d56dbaceb1f021",
+        "2817bb6151a1cf74a3523288",
+        "397fc6607a6699f8123b0973",
+        "3bd99e0687a2af74bcefeb33",
+        "3e12acd1f9ff291e56d9238a",
+        "487263c647aa9e0b24be61a3",
+        "4ef1945d187d390043be7c68",
+        "500c4b34d28e05758bf58164",
+        "51159a07a48415a05cc5eeb1",
+        "53071af9de5b7aa43bebb418",
+        "57e0f134f513059125f9a2f4",
+        "5d337ae331a50280adde1fa4",
+        "6ada7db772eb3c0d7744492e",
+        "77ba2871299e0b0e8da91946",
+        "7c2a6c32429c15a0f1f75d6f",
+        "84a2ef7ffee80c139ab9338f",
+        "89923089a7ac1fc850d55f85",
+        "8cba41a6312f4d74bc5a03cf",
+        "8cbbdbcf9fb2a953171056aa",
+        "9916807e0ac1969f43b43a28",
+        "a6d4ae8084e3947862a4de34",
+        "aa6c41337309bf9f26b67c67",
+        "bb5045bc4e8da2e9cab6194c",
+        "befb27bb4749a6b9bbcb5dd1",
+        "ce3201ad29c86579ffe2685c",
+        "d2db83b0105cb6bc2c19a337",
+        "d38cf41707cdf99204e78098",
+        "e3f03ed445e075a538f464b5",
+        "f96b505388df8d3a5676442b"
+      ],
+      "items": [
+        {
+          "key": "f96b505388df8d3a5676442b",
+          "title": "About Community Shop Careers T1A Membership",
+          "url": "https://www.t1.gg/new-page-2",
+          "matched": ""
+        },
+        {
+          "key": "51159a07a48415a05cc5eeb1",
+          "title": "About Us",
+          "url": "https://www.t1.gg/about",
+          "matched": ""
+        },
+        {
+          "key": "e3f03ed445e075a538f464b5",
+          "title": "Teams",
+          "url": "https://www.t1.gg/teams",
+          "matched": ""
+        },
+        {
+          "key": "53071af9de5b7aa43bebb418",
+          "title": "Socials",
+          "url": "https://www.t1.gg/socials-1",
+          "matched": ""
+        },
+        {
+          "key": "aa6c41337309bf9f26b67c67",
+          "title": "News",
+          "url": "https://www.t1.gg/news",
+          "matched": ""
+        },
+        {
+          "key": "bb5045bc4e8da2e9cab6194c",
+          "title": "Partners",
+          "url": "https://www.t1.gg/partners",
+          "matched": ""
+        },
+        {
+          "key": "8cba41a6312f4d74bc5a03cf",
+          "title": "Wallpapers",
+          "url": "https://www.flickr.com/photos/t1esports",
+          "matched": ""
+        },
+        {
+          "key": "0b6372a1fb3c4ce432f8efde",
+          "title": "Brand Assets",
+          "url": "https://drive.google.com/drive/folders/1STUr0AF3sWvyoVH5o0f2Ztxn7IAlF3VX?usp=share_link",
+          "matched": ""
+        },
+        {
+          "key": "d2db83b0105cb6bc2c19a337",
+          "title": "Report",
+          "url": "https://www.t1.gg/report",
+          "matched": ""
+        },
+        {
+          "key": "89923089a7ac1fc850d55f85",
+          "title": "KR Shop",
+          "url": "https://shop-t1.gg/",
+          "matched": ""
+        },
+        {
+          "key": "befb27bb4749a6b9bbcb5dd1",
+          "title": "NA Shop",
+          "url": "https://shop-t1-na.gg/",
+          "matched": ""
+        },
+        {
+          "key": "a6d4ae8084e3947862a4de34",
+          "title": "CN Shop",
+          "url": "https://t1.tmall.hk/shop/view_shop.htm?rn=915f3407f6c9ed0d9c37b5bbdfc86999&spm=a220m.1000862.1000730.1.5f5d7002jjQbxA&user_number_id=2211711399200",
+          "matched": ""
+        },
+        {
+          "key": "487263c647aa9e0b24be61a3",
+          "title": "EU Shop",
+          "url": "https://shop-t1-eu.gg/",
+          "matched": ""
+        },
+        {
+          "key": "3bd99e0687a2af74bcefeb33",
+          "title": "Departments",
+          "url": "https://www.t1.gg/teams-1",
+          "matched": ""
+        },
+        {
+          "key": "9916807e0ac1969f43b43a28",
+          "title": "Culture",
+          "url": "https://www.t1.gg/new-page-1",
+          "matched": ""
+        },
+        {
+          "key": "7c2a6c32429c15a0f1f75d6f",
+          "title": "Benefits",
+          "url": "https://www.t1.gg/benefits",
+          "matched": ""
+        },
+        {
+          "key": "3e12acd1f9ff291e56d9238a",
+          "title": "T1A",
+          "url": "http://t1a.gg/",
+          "matched": ""
+        },
+        {
+          "key": "019a4aec4887d9d6286482fa",
+          "title": "Membership",
+          "url": "https://t1.fan/",
+          "matched": ""
+        },
+        {
+          "key": "1a3d714898d56dbaceb1f021",
+          "title": "Folder: About",
+          "url": "https://www.t1.gg/about-1",
+          "matched": ""
+        },
+        {
+          "key": "500c4b34d28e05758bf58164",
+          "title": "Folder: Community",
+          "url": "https://www.t1.gg/community",
+          "matched": ""
+        },
+        {
+          "key": "5d337ae331a50280adde1fa4",
+          "title": "Folder: Shop",
+          "url": "https://www.t1.gg/shop",
+          "matched": ""
+        },
+        {
+          "key": "84a2ef7ffee80c139ab9338f",
+          "title": "Folder: Careers",
+          "url": "https://www.t1.gg/new-dropdown",
+          "matched": ""
+        },
+        {
+          "key": "57e0f134f513059125f9a2f4",
+          "title": "Back",
+          "url": "https://www.t1.gg/",
+          "matched": ""
+        },
+        {
+          "key": "ce3201ad29c86579ffe2685c",
+          "title": "Comcast Spectacor",
+          "url": "http://www.comcastspectacor.com/",
+          "matched": ""
+        },
+        {
+          "key": "d38cf41707cdf99204e78098",
+          "title": "SK Square",
+          "url": "https://www.sksquare.com/eng/index.do",
+          "matched": ""
+        },
+        {
+          "key": "397fc6607a6699f8123b0973",
+          "title": "Legal Terms",
+          "url": "https://www.t1.gg/legal-terms",
+          "matched": ""
+        },
+        {
+          "key": "2817bb6151a1cf74a3523288",
+          "title": "Cookie Policy",
+          "url": "https://www.t1.gg/cookie-policy",
+          "matched": ""
+        },
+        {
+          "key": "77ba2871299e0b0e8da91946",
+          "title": "Privacy Policy",
+          "url": "https://www.t1.gg/privacy-policy",
+          "matched": ""
+        },
+        {
+          "key": "6ada7db772eb3c0d7744492e",
+          "title": "Contact",
+          "url": "https://www.t1.gg/contact",
+          "matched": ""
+        },
+        {
+          "key": "4ef1945d187d390043be7c68",
+          "title": "WE ARE HIRING",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=czJ1QlR1c3JvYitwTi9kRy9aWmQ0UT09",
+          "matched": ""
+        },
+        {
+          "key": "8cbbdbcf9fb2a953171056aa",
+          "title": "About Community Shop Careers T1A Membership",
+          "url": "https://www.t1.gg/cart",
+          "matched": ""
+        }
+      ],
+      "checked_at": "2026-07-12T14:19:40.256753+00:00"
+    },
+    "geng": {
+      "name": "Gen.G",
+      "category": "이스포츠 구단",
+      "url": "https://geng.career.greetinghr.com/ko/work-with-us",
+      "keys": [
+        "007d8ec4375b08d3b60891a1",
+        "0209c516e253789ef083d1d6",
+        "04e36ba273e4136e5544e118",
+        "08e8fc68b1481890b65bfc6d",
+        "18dd96c9fc1dfa16002e015d",
+        "1c9e8621af36603f31f112e2",
+        "50c9128771aef57508c9942a",
+        "6e479cfacf51711cb8fc3d9a",
+        "82375d89b266a65932bf5d20",
+        "8cdfdb8f481c4cb02bb7f737",
+        "96aa9fdbdc6a346e518f2bcb",
+        "9c6b3915df01006ab2781eca",
+        "a7a63e76463c683de9566597",
+        "aeec60f0680ba490496ba8b5",
+        "bdafa183ed5822b7ca4484f1",
+        "e26c0245a439b22536dd81c8",
+        "f8fb413bbda86f1fcf285bfe",
+        "fa8a480fea16bc37c7e783c8"
+      ],
+      "items": [
+        {
+          "key": "a7a63e76463c683de9566597",
+          "title": "Gen.G",
+          "url": "https://geng.career.greetinghr.com/ko",
+          "matched": ""
+        },
+        {
+          "key": "007d8ec4375b08d3b60891a1",
+          "title": "How We Work",
+          "url": "https://geng.career.greetinghr.com/ko/how-we-work",
+          "matched": ""
+        },
+        {
+          "key": "bdafa183ed5822b7ca4484f1",
+          "title": "Work With Us",
+          "url": "https://geng.career.greetinghr.com/ko/work-with-us",
+          "matched": ""
+        },
+        {
+          "key": "f8fb413bbda86f1fcf285bfe",
+          "title": "FAQ",
+          "url": "https://geng.career.greetinghr.com/ko/faq",
+          "matched": ""
+        },
+        {
+          "key": "1c9e8621af36603f31f112e2",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트 Gen.G eSports Global Academy, Ltd. Gen.G Global Academy 계약직 Gen.G Global Academy",
+          "url": "https://geng.career.greetinghr.com/ko/o/225665",
+          "matched": ""
+        },
+        {
+          "key": "fa8a480fea16bc37c7e783c8",
+          "title": "(신입) HR 인턴 / HR Intern KSV Services, Ltd. Gen.G Human Resources 경력 무관 Gen.G Esports",
+          "url": "https://geng.career.greetinghr.com/ko/o/224790",
+          "matched": ""
+        },
+        {
+          "key": "82375d89b266a65932bf5d20",
+          "title": "(신입) 아카데미팀 어드민파트 인턴 / Academy Team Admin Part Intern Gen.G Global Academy Gen.G Global Academy Academy 신입 인턴 Gen.G Global Academy",
+          "url": "https://geng.career.greetinghr.com/ko/o/224336",
+          "matched": ""
+        },
+        {
+          "key": "08e8fc68b1481890b65bfc6d",
+          "title": "(경력) 교육 프로그램 상담 및 세일즈 담당 사원 / Education Program Sales Associate Gen.G eSports Global Academy, Ltd. Gen.G Global Academy Sales Associate Sales 계약직 Gen.G Global Academy",
+          "url": "https://geng.career.greetinghr.com/ko/o/222900",
+          "matched": ""
+        },
+        {
+          "key": "8cdfdb8f481c4cb02bb7f737",
+          "title": "(경력) 시니어 마케팅 매니저 (팬 그로스 & 액티베이션) / Senior Marketing Manager, Fan Growth & Activation KSV eSports Korea Co., Ltd. Gen.G Esports Marketing Marketing 경력 8년 이상 정규직 Gen.G Esports",
+          "url": "https://geng.career.greetinghr.com/ko/o/222447",
+          "matched": ""
+        },
+        {
+          "key": "18dd96c9fc1dfa16002e015d",
+          "title": "(경력) 해외 대학 입시 컨설턴트 / International Admissions Consultant Gen.G eSports Global Academy, Ltd. Gen.G Global Academy 계약직 Gen.G Global Academy",
+          "url": "https://geng.career.greetinghr.com/ko/o/219927",
+          "matched": ""
+        },
+        {
+          "key": "0209c516e253789ef083d1d6",
+          "title": "(경력) 퍼포먼스 마케터(그로스 마케팅) / Performance Marketer(Growth Marketing) [Marketing&Sales Team] Gen.G eSports Global Academy, Ltd. Gen.G Global Academy 경력 2~3년 정규직 Gen.G Global Academy",
+          "url": "https://geng.career.greetinghr.com/ko/o/203303",
+          "matched": ""
+        },
+        {
+          "key": "e26c0245a439b22536dd81c8",
+          "title": "(신입/경력) 미국 중·고등 교육 프로그램 기획 및 운영 담당 / International School Program Manager Gen.G eSports Global Academy, Ltd. Gen.G Global Academy 계약직 Gen.G Global Academy",
+          "url": "https://geng.career.greetinghr.com/ko/o/202795",
+          "matched": ""
+        },
+        {
+          "key": "96aa9fdbdc6a346e518f2bcb",
+          "title": "(경력) 마케팅 사원 / Marketing Associate [Marketing Team] KSV eSports Korea Co., Ltd. Gen.G Esports Marketing Marketing 경력 1~3년 정규직 Gen.G Esports",
+          "url": "https://geng.career.greetinghr.com/ko/o/172284",
+          "matched": ""
+        },
+        {
+          "key": "50c9128771aef57508c9942a",
+          "title": "[인재풀 등록하기] GGA FC Online Coach Gen.G Global Academy GGA Coaches 경력 무관 Gen.G Esports",
+          "url": "https://geng.career.greetinghr.com/ko/o/155530",
+          "matched": ""
+        },
+        {
+          "key": "9c6b3915df01006ab2781eca",
+          "title": "[인재풀 등록하기] GGA Overwatch Coach Gen.G Global Academy GGA Coaches 경력 무관 Gen.G Esports",
+          "url": "https://geng.career.greetinghr.com/ko/o/100040",
+          "matched": ""
+        },
+        {
+          "key": "6e479cfacf51711cb8fc3d9a",
+          "title": "[인재풀 등록하기] GGA Valorant Coach Gen.G Global Academy GGA Coaches 경력 무관 Gen.G Esports",
+          "url": "https://geng.career.greetinghr.com/ko/o/100039",
+          "matched": ""
+        },
+        {
+          "key": "aeec60f0680ba490496ba8b5",
+          "title": "[인재풀 등록하기] GGA LoL Coach Gen.G Global Academy GGA Coaches 경력 무관 Gen.G Esports",
+          "url": "https://geng.career.greetinghr.com/ko/o/100038",
+          "matched": ""
+        },
+        {
+          "key": "04e36ba273e4136e5544e118",
+          "title": "인재풀 등록하기 / Talent Pool 전체 직군 경력 무관 Gen.G Esports",
+          "url": "https://geng.career.greetinghr.com/ko/o/99652",
+          "matched": ""
+        }
+      ],
+      "checked_at": "2026-07-12T14:19:49.422259+00:00"
+    },
+    "dplus_kia": {
+      "name": "디플러스 기아",
+      "category": "이스포츠 구단",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/31686508",
+      "keys": [
+        "065f6f0dd6f045e33774034d",
+        "0a2b56d15bfac1bf2a2fe299",
+        "0a37f8b6d7eb0bedcb13176d",
+        "1ea12aec0b25f2a2c2e61222",
+        "1fc233c6bf1956a4a3343222",
+        "32a192f2753ba51968e8ee31",
+        "4086d17644b092caf23a6172",
+        "48a77d2c7978b0414754085b",
+        "7aa331be10528f30e6787b93",
+        "9da05b57da015cc50fbfa700",
+        "a313cdcd8e278dcff866ee0f",
+        "c661430b9f57662d532ab08c",
+        "cbc94cad3c26da0536afd80d",
+        "d939c66a1c8aefaf3b0b182c",
+        "e044e59bde419858012bcdfc",
+        "e4d425bfea27028b10684b58",
+        "f789bd63e0f6a837ad320247",
+        "fa126a89be853ad807a2577a",
+        "fd93c49ac1f5b2a31d228ec2",
+        "fe15b4c6f318a3b98d209ea8"
+      ],
+      "items": [
+        {
+          "key": "a313cdcd8e278dcff866ee0f",
+          "title": "Dplus KIA Esports 지원파트 인사/총무 채용 경력 서울 대졸↑ 마감 (~2025.05.29) HRD·HRM,인사담당자 외 1",
+          "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/31686508",
+          "matched": ""
+        },
+        {
+          "key": "fe15b4c6f318a3b98d209ea8",
+          "title": "JOBKOREA",
+          "url": "https://www.jobkorea.co.kr/",
+          "matched": ""
+        },
+        {
+          "key": "e044e59bde419858012bcdfc",
+          "title": "전체 채용정보",
+          "url": "https://www.jobkorea.co.kr/recruit/joblist?menucode=local&localorder=1",
+          "matched": ""
+        },
+        {
+          "key": "7aa331be10528f30e6787b93",
+          "title": "신입공채",
+          "url": "https://www.jobkorea.co.kr/Starter/",
+          "matched": ""
+        },
+        {
+          "key": "32a192f2753ba51968e8ee31",
+          "title": "헤드헌팅",
+          "url": "https://www.jobkorea.co.kr/headhunting/home",
+          "matched": ""
+        },
+        {
+          "key": "065f6f0dd6f045e33774034d",
+          "title": "기업정보 게시물",
+          "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/C/31686508",
+          "matched": ""
+        },
+        {
+          "key": "cbc94cad3c26da0536afd80d",
+          "title": "연봉정보 게시물",
+          "url": "https://www.jobkorea.co.kr/Recruit/Salary/31686508",
+          "matched": ""
+        },
+        {
+          "key": "d939c66a1c8aefaf3b0b182c",
+          "title": "[Dplus KIA] 팬커뮤니케이션팀 콘텐츠 PD 채용공고 경력 서울 무관 마감 (~2025.09.29) 크리에이터",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/47442548?Oem_Code=C1&sc=225",
+          "matched": ""
+        },
+        {
+          "key": "c661430b9f57662d532ab08c",
+          "title": "[Dplus KIA] 팬커뮤니케이션팀 SNS 담당자 채용공고 경력 서울 무관 마감 (~2025.09.29) 크리에이터",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/47439657?Oem_Code=C1&sc=225",
+          "matched": ""
+        },
+        {
+          "key": "fa126a89be853ad807a2577a",
+          "title": "[Dplus KIA] 팬커뮤니케이션팀 SNS 담당자 채용공고 경력 서울 무관 마감 (~2025.08.04) 크리에이터",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/47124995?Oem_Code=C1&sc=225",
+          "matched": ""
+        },
+        {
+          "key": "fd93c49ac1f5b2a31d228ec2",
+          "title": "[Dplus KIA] 팬커뮤니케이션팀 콘텐츠 PD 채용공고 경력 서울 무관 마감 (~2025.08.04) 크리에이터",
+          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/47124990?Oem_Code=C1&sc=225",
+          "matched": ""
+        },
+        {
+          "key": "1ea12aec0b25f2a2c2e61222",
+          "title": "취업톡톡 동문/기업/직무 질문하기",
+          "url": "https://www.jobkorea.co.kr/User/Qstn/QstnWrite",
+          "matched": ""
+        },
+        {
+          "key": "1fc233c6bf1956a4a3343222",
+          "title": "신고하기 불량·허위정보 신고하기",
+          "url": "https://www.jobkorea.co.kr/help/inquiry?ctgrNo=603&CoName=%EC%97%90%EC%9D%B4%EB%94%94%EC%9D%B4%EC%8A%A4%ED%8F%AC%EC%B8%A0",
+          "matched": ""
+        },
+        {
+          "key": "0a37f8b6d7eb0bedcb13176d",
+          "title": "공지사항",
+          "url": "https://www.jobkorea.co.kr/help/notice",
+          "matched": ""
+        },
+        {
+          "key": "9da05b57da015cc50fbfa700",
+          "title": "잡코리아 개인정보처리방침 개정 안내 18.05.09",
+          "url": "https://www.jobkorea.co.kr/help/notice/view?no=13954",
+          "matched": ""
+        },
+        {
+          "key": "4086d17644b092caf23a6172",
+          "title": "서비스 전체보기",
+          "url": "https://www.jobkorea.co.kr/Service/SiteMap",
+          "matched": ""
+        },
+        {
+          "key": "48a77d2c7978b0414754085b",
+          "title": "인재채용",
+          "url": "http://company.jobkorea.co.kr/Recruit/default.asp",
+          "matched": ""
+        },
+        {
+          "key": "0a2b56d15bfac1bf2a2fe299",
+          "title": "블로그",
+          "url": "https://blog.naver.com/jobkorea1",
+          "matched": ""
+        },
+        {
+          "key": "e4d425bfea27028b10684b58",
+          "title": "페이스북",
+          "url": "https://www.facebook.com/jobkorea",
+          "matched": ""
+        },
+        {
+          "key": "f789bd63e0f6a837ad320247",
+          "title": "인스타그램",
+          "url": "https://www.instagram.com/jobkorea_albamon/",
+          "matched": ""
+        }
+      ],
+      "checked_at": "2026-07-12T14:20:01.428447+00:00"
+    },
+    "hanwha": {
+      "name": "한화생명e스포츠",
+      "category": "이스포츠 구단",
+      "url": "https://www.hanwhain.com/portal/apply/recruit",
+      "keys": [],
+      "items": [],
+      "checked_at": "2026-07-12T14:20:17.118185+00:00"
+    },
+    "tencent": {
+      "name": "텐센트 공식 채용",
+      "category": "기타",
+      "url": "https://careers.tencent.com/en-us/search.html?query=ci_701",
+      "keys": [
+        "578bea5d158813445ce99e67"
+      ],
+      "items": [
+        {
+          "key": "578bea5d158813445ce99e67",
+          "title": "Game Research Intern 107171",
+          "url": "https://careers.tencent.com/en-us/search.html?query=ci_701",
+          "matched": ""
+        }
+      ],
+      "checked_at": "2026-07-12T14:20:27.648283+00:00"
+    },
+    "tencent_linkedin": {
+      "name": "텐센트 LinkedIn",
+      "category": "기타",
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4414650508&f_C=166328&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4414650508%2C4414641685%2C4418983257%2C4414644640%2C4421676064%2C4399119770%2C4414650428%2C4414643683",
+      "keys": [],
+      "items": [],
+      "checked_at": "2026-07-12T14:21:50.865305+00:00"
+    },
+    "bytedance_korea": {
+      "name": "틱톡·바이트댄스 코리아",
+      "category": "기타",
+      "url": "https://joinbytedance.com/search?recruitment_id_list=&job_category_id_list=&subject_id_list=&location_code_list=CT_134&keyword=&limit=12&offset=0",
+      "keys": [],
+      "items": [],
+      "checked_at": "2026-07-12T14:22:02.241952+00:00"
+    },
+    "osan_university": {
+      "name": "오산대학교",
+      "category": "기타",
+      "url": "https://www.osan.ac.kr/index.html?menuno=958",
+      "keys": [],
+      "items": [],
+      "checked_at": "2026-07-12T14:22:16.265468+00:00"
+    }
+  },
+  "last_run": "2026-07-12T14:22:16.305527+00:00",
+  "last_errors": [
+    "농심이스포츠: 시간 초과: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09\", waiting until \"domcontentloaded\"\n"
+  ]
 }
