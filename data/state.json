@@ -23,7 +23,7 @@
           "matched": "Esports"
         }
       ],
-      "checked_at": "2026-07-13T07:28:30.585713+00:00"
+      "checked_at": "2026-07-13T11:20:20.685107+00:00"
     },
     "smilegate": {
       "name": "스마일게이트",
@@ -31,7 +31,7 @@
       "url": "https://careers.smilegate.com/apply/announce",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-13T07:28:47.656041+00:00"
+      "checked_at": "2026-07-13T11:20:37.659958+00:00"
     },
     "kespa": {
       "name": "한국e스포츠협회(KeSPA)",
@@ -39,7 +39,7 @@
       "url": "https://www.e-sports.or.kr/news/notice?brd_id=&sh_brd_class=103&currPage=1&sh_value=",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-13T07:28:55.580310+00:00"
+      "checked_at": "2026-07-13T11:20:45.602014+00:00"
     },
     "ccon": {
       "name": "충남콘텐츠진흥원",
@@ -140,7 +140,7 @@
           "matched": "직원채용"
         }
       ],
-      "checked_at": "2026-07-13T07:29:04.180083+00:00"
+      "checked_at": "2026-07-13T11:20:54.181078+00:00"
     },
     "gcon": {
       "name": "경기콘텐츠진흥원",
@@ -206,7 +206,7 @@
           "matched": "채용 공고"
         }
       ],
-      "checked_at": "2026-07-13T07:29:14.542274+00:00"
+      "checked_at": "2026-07-13T11:21:05.631750+00:00"
     },
     "t1": {
       "name": "T1",
@@ -433,7 +433,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-13T07:30:08.415493+00:00"
+      "checked_at": "2026-07-13T11:22:06.631013+00:00"
     },
     "geng": {
       "name": "Gen.G",
@@ -444,6 +444,7 @@
         "0209c516e253789ef083d1d6",
         "04e36ba273e4136e5544e118",
         "08e8fc68b1481890b65bfc6d",
+        "0ca95f270734f19bda1bda16",
         "18dd96c9fc1dfa16002e015d",
         "1c9e8621af36603f31f112e2",
         "50c9128771aef57508c9942a",
@@ -456,8 +457,7 @@
         "aeec60f0680ba490496ba8b5",
         "bdafa183ed5822b7ca4484f1",
         "e26c0245a439b22536dd81c8",
-        "f8fb413bbda86f1fcf285bfe",
-        "fa8a480fea16bc37c7e783c8"
+        "f8fb413bbda86f1fcf285bfe"
       ],
       "items": [
         {
@@ -491,12 +491,6 @@
           "matched": ""
         },
         {
-          "key": "fa8a480fea16bc37c7e783c8",
-          "title": "(신입) HR 인턴 / HR Intern KSV Services, Ltd. Gen.G Human Resources 경력 무관 Gen.G Esports",
-          "url": "https://geng.career.greetinghr.com/ko/o/224790",
-          "matched": ""
-        },
-        {
           "key": "82375d89b266a65932bf5d20",
           "title": "(신입) 아카데미팀 어드민파트 인턴 / Academy Team Admin Part Intern Gen.G Global Academy Gen.G Global Academy Academy 신입 인턴 Gen.G Global Academy",
           "url": "https://geng.career.greetinghr.com/ko/o/224336",
@@ -518,6 +512,12 @@
           "key": "18dd96c9fc1dfa16002e015d",
           "title": "(경력) 해외 대학 입시 컨설턴트 / International Admissions Consultant Gen.G eSports Global Academy, Ltd. Gen.G Global Academy 계약직 Gen.G Global Academy",
           "url": "https://geng.career.greetinghr.com/ko/o/219927",
+          "matched": ""
+        },
+        {
+          "key": "0ca95f270734f19bda1bda16",
+          "title": "(경력) 머천다이징 세일즈 매니저 / MD Sales Manager (과장급) KSV eSports Korea Co., Ltd. Gen.G Esports Merchandise 경력 5년 이상 정규직 Gen.G Esports",
+          "url": "https://geng.career.greetinghr.com/ko/o/207038",
           "matched": ""
         },
         {
@@ -569,7 +569,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-13T07:30:17.540892+00:00"
+      "checked_at": "2026-07-13T11:22:16.919504+00:00"
     },
     "dplus_kia": {
       "name": "디플러스 기아",
@@ -719,7 +719,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-13T07:30:30.145149+00:00"
+      "checked_at": "2026-07-13T11:22:29.199082+00:00"
     },
     "hanwha": {
       "name": "한화생명e스포츠",
@@ -727,7 +727,7 @@
       "url": "https://www.hanwhain.com/portal/apply/recruit",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-13T07:30:46.380453+00:00"
+      "checked_at": "2026-07-13T11:22:44.533200+00:00"
     },
     "tencent": {
       "name": "텐센트 공식 채용",
@@ -744,7 +744,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-13T07:30:57.109292+00:00"
+      "checked_at": "2026-07-13T11:22:55.859032+00:00"
     },
     "tencent_linkedin": {
       "name": "텐센트 LinkedIn",
@@ -752,7 +752,7 @@
       "url": "https://www.linkedin.com/jobs/search/?currentJobId=4414650508&f_C=166328&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4414650508%2C4414641685%2C4418983257%2C4414644640%2C4421676064%2C4399119770%2C4414650428%2C4414643683",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-13T07:32:19.960623+00:00"
+      "checked_at": "2026-07-13T11:24:14.360749+00:00"
     },
     "bytedance_korea": {
       "name": "틱톡·바이트댄스 코리아",
@@ -760,7 +760,7 @@
       "url": "https://joinbytedance.com/search?recruitment_id_list=&job_category_id_list=&subject_id_list=&location_code_list=CT_134&keyword=&limit=12&offset=0",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-13T07:32:31.988653+00:00"
+      "checked_at": "2026-07-13T11:24:25.696807+00:00"
     },
     "osan_university": {
       "name": "오산대학교",
@@ -768,11 +768,173 @@
       "url": "https://www.osan.ac.kr/index.html?menuno=958",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-13T07:32:45.426296+00:00"
+      "checked_at": "2026-07-13T11:24:38.151354+00:00"
+    },
+    "nongshim_esports": {
+      "name": "농심이스포츠",
+      "category": "이스포츠 구단",
+      "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09",
+      "keys": [
+        "24b4a7bf00a3b162c416c3a6",
+        "2b4cd393c579cf1c6f765d1f",
+        "2b5758245c16016c0b26887d",
+        "2c3265f8be4bcf66dd6152dc",
+        "2db746a37affc31e238eb31c",
+        "3020206485796415d37447e1",
+        "3d3bf25f57f6217805c3092d",
+        "4cc8a82bbb69ebe9c30f4349",
+        "5334db0f4d99cbe143e40fbd",
+        "5392e18a0931c08a53ddbbfb",
+        "58072766b4cda993dec1c691",
+        "5c2265741c5ae31e4242b4d9",
+        "94281a6e71be735cb0cb6cb2",
+        "97937405989053d78377338c",
+        "bbe3ff7e308303a6064cedc5",
+        "c2d4d977a4cce3f3bd00a90d",
+        "ca3e373c176c951741b24e19",
+        "d177d64a5cac6e41897ee714",
+        "d35990bfce98def2a57797b7",
+        "d59a31cb4e2725804e4cef0f",
+        "d65c9cb616a44e7ebd0a38d6",
+        "e9e3a5a02c3ab5ae0585b62c"
+      ],
+      "items": [
+        {
+          "key": "24b4a7bf00a3b162c416c3a6",
+          "title": "본문 바로가기",
+          "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09",
+          "matched": ""
+        },
+        {
+          "key": "4cc8a82bbb69ebe9c30f4349",
+          "title": "공고 등록",
+          "url": "https://hiring.saramin.co.kr/recruit/add",
+          "matched": ""
+        },
+        {
+          "key": "58072766b4cda993dec1c691",
+          "title": "공고 요청(후불형)",
+          "url": "https://hiring.saramin.co.kr/recruit/smart",
+          "matched": ""
+        },
+        {
+          "key": "d35990bfce98def2a57797b7",
+          "title": "채용상품",
+          "url": "https://billing.saramin.co.kr/products?t_ref=main&t_ref_content=member_gnb",
+          "matched": ""
+        },
+        {
+          "key": "2c3265f8be4bcf66dd6152dc",
+          "title": "채용정보",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/list/domestic",
+          "matched": ""
+        },
+        {
+          "key": "e9e3a5a02c3ab5ae0585b62c",
+          "title": "직업별",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/list/job-category",
+          "matched": ""
+        },
+        {
+          "key": "5334db0f4d99cbe143e40fbd",
+          "title": "역세권별",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/list/subway",
+          "matched": ""
+        },
+        {
+          "key": "d177d64a5cac6e41897ee714",
+          "title": "HOT100",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/hot100",
+          "matched": ""
+        },
+        {
+          "key": "d65c9cb616a44e7ebd0a38d6",
+          "title": "헤드헌팅",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/list/headhunting",
+          "matched": ""
+        },
+        {
+          "key": "2b4cd393c579cf1c6f765d1f",
+          "title": "채용관",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/theme/main",
+          "matched": ""
+        },
+        {
+          "key": "97937405989053d78377338c",
+          "title": "파견대행",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/list/dispatch",
+          "matched": ""
+        },
+        {
+          "key": "c2d4d977a4cce3f3bd00a90d",
+          "title": "외국인 채용정보는 KoMate",
+          "url": "https://komate.saramin.co.kr/",
+          "matched": ""
+        },
+        {
+          "key": "2b5758245c16016c0b26887d",
+          "title": "중장년 채용정보는 원더풀시니어",
+          "url": "https://senior.saramin.co.kr/",
+          "matched": ""
+        },
+        {
+          "key": "3d3bf25f57f6217805c3092d",
+          "title": "취업 시 커피부터취업축하금",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/theme/it-headhunting",
+          "matched": ""
+        },
+        {
+          "key": "ca3e373c176c951741b24e19",
+          "title": "신입·인턴 홈",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/public/home",
+          "matched": ""
+        },
+        {
+          "key": "5c2265741c5ae31e4242b4d9",
+          "title": "실시간 공고",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/public/list",
+          "matched": ""
+        },
+        {
+          "key": "94281a6e71be735cb0cb6cb2",
+          "title": "채용달력",
+          "url": "https://www.saramin.co.kr/zf_user/calendar",
+          "matched": ""
+        },
+        {
+          "key": "bbe3ff7e308303a6064cedc5",
+          "title": "스크랩",
+          "url": "https://www.saramin.co.kr/zf_user/persons/scrap-recruit",
+          "matched": ""
+        },
+        {
+          "key": "5392e18a0931c08a53ddbbfb",
+          "title": "최근본",
+          "url": "https://www.saramin.co.kr/zf_user/jobs/read-jobs",
+          "matched": ""
+        },
+        {
+          "key": "2db746a37affc31e238eb31c",
+          "title": "인재채용",
+          "url": "https://www.saramin-team.kr/",
+          "matched": ""
+        },
+        {
+          "key": "d59a31cb4e2725804e4cef0f",
+          "title": "채용정보 API",
+          "url": "https://oapi.saramin.co.kr/",
+          "matched": ""
+        },
+        {
+          "key": "3020206485796415d37447e1",
+          "title": "진행중 공고",
+          "url": "https://www.saramin.co.kr/zf_user/member/job-pass",
+          "matched": ""
+        }
+      ],
+      "checked_at": "2026-07-13T11:21:57.745848+00:00"
     }
   },
-  "last_run": "2026-07-13T07:32:45.456529+00:00",
-  "last_errors": [
-    "농심이스포츠: 시간 초과: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09\", waiting until \"domcontentloaded\"\n"
-  ]
+  "last_run": "2026-07-13T11:24:38.188940+00:00",
+  "last_errors": []
 }
