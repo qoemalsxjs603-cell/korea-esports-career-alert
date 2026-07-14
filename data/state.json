@@ -23,7 +23,7 @@
           "matched": "Esports"
         }
       ],
-      "checked_at": "2026-07-14T06:17:45.482505+00:00"
+      "checked_at": "2026-07-14T10:05:02.572960+00:00"
     },
     "smilegate": {
       "name": "스마일게이트",
@@ -31,7 +31,7 @@
       "url": "https://careers.smilegate.com/apply/announce",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-14T06:18:02.652444+00:00"
+      "checked_at": "2026-07-14T10:05:19.596846+00:00"
     },
     "kespa": {
       "name": "한국e스포츠협회(KeSPA)",
@@ -39,7 +39,7 @@
       "url": "https://www.e-sports.or.kr/news/notice?brd_id=&sh_brd_class=103&currPage=1&sh_value=",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-14T06:18:10.598858+00:00"
+      "checked_at": "2026-07-14T10:05:28.239479+00:00"
     },
     "ccon": {
       "name": "충남콘텐츠진흥원",
@@ -140,7 +140,7 @@
           "matched": "직원채용"
         }
       ],
-      "checked_at": "2026-07-14T02:56:30.303087+00:00"
+      "checked_at": "2026-07-14T10:05:37.455850+00:00"
     },
     "gcon": {
       "name": "경기콘텐츠진흥원",
@@ -206,7 +206,7 @@
           "matched": "채용 공고"
         }
       ],
-      "checked_at": "2026-07-14T06:18:40.623948+00:00"
+      "checked_at": "2026-07-14T10:05:47.779243+00:00"
     },
     "t1": {
       "name": "T1",
@@ -433,7 +433,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-14T06:19:34.501691+00:00"
+      "checked_at": "2026-07-14T10:06:41.610203+00:00"
     },
     "geng": {
       "name": "Gen.G",
@@ -449,7 +449,6 @@
         "1c9e8621af36603f31f112e2",
         "50c9128771aef57508c9942a",
         "6e479cfacf51711cb8fc3d9a",
-        "82375d89b266a65932bf5d20",
         "8cdfdb8f481c4cb02bb7f737",
         "96aa9fdbdc6a346e518f2bcb",
         "9c6b3915df01006ab2781eca",
@@ -488,12 +487,6 @@
           "key": "1c9e8621af36603f31f112e2",
           "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트 Gen.G eSports Global Academy, Ltd. Gen.G Global Academy 계약직 Gen.G Global Academy",
           "url": "https://geng.career.greetinghr.com/ko/o/225665",
-          "matched": ""
-        },
-        {
-          "key": "82375d89b266a65932bf5d20",
-          "title": "(신입) 아카데미팀 어드민파트 인턴 / Academy Team Admin Part Intern Gen.G Global Academy Gen.G Global Academy Academy 신입 인턴 Gen.G Global Academy",
-          "url": "https://geng.career.greetinghr.com/ko/o/224336",
           "matched": ""
         },
         {
@@ -569,7 +562,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-14T06:19:43.580199+00:00"
+      "checked_at": "2026-07-14T10:06:50.803053+00:00"
     },
     "dplus_kia": {
       "name": "디플러스 기아",
@@ -719,7 +712,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-14T06:19:56.182233+00:00"
+      "checked_at": "2026-07-14T10:07:03.903312+00:00"
     },
     "hanwha": {
       "name": "한화생명e스포츠",
@@ -744,7 +737,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-14T06:20:23.109421+00:00"
+      "checked_at": "2026-07-14T10:07:59.880573+00:00"
     },
     "tencent_linkedin": {
       "name": "텐센트 LinkedIn",
@@ -752,7 +745,7 @@
       "url": "https://www.linkedin.com/jobs/search/?currentJobId=4414650508&f_C=166328&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4414650508%2C4414641685%2C4418983257%2C4414644640%2C4421676064%2C4399119770%2C4414650428%2C4414643683",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-14T06:21:46.699787+00:00"
+      "checked_at": "2026-07-14T10:09:25.665685+00:00"
     },
     "bytedance_korea": {
       "name": "틱톡·바이트댄스 코리아",
@@ -760,7 +753,7 @@
       "url": "https://joinbytedance.com/search?recruitment_id_list=&job_category_id_list=&subject_id_list=&location_code_list=CT_134&keyword=&limit=12&offset=0",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-14T06:21:58.791732+00:00"
+      "checked_at": "2026-07-14T10:09:37.032143+00:00"
     },
     "osan_university": {
       "name": "오산대학교",
@@ -768,7 +761,7 @@
       "url": "https://www.osan.ac.kr/index.html?menuno=958",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-14T06:22:11.298557+00:00"
+      "checked_at": "2026-07-14T10:09:50.255996+00:00"
     },
     "nongshim_esports": {
       "name": "농심이스포츠",
@@ -935,9 +928,9 @@
       "checked_at": "2026-07-13T11:21:57.745848+00:00"
     }
   },
-  "last_run": "2026-07-14T06:22:11.329698+00:00",
+  "last_run": "2026-07-14T10:09:50.295294+00:00",
   "last_errors": [
-    "충남콘텐츠진흥원: Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://ccon.kr/bbs/board.php?bo_table=rnt&page=1\nCall log:\n  - navigating to \"https://ccon.kr/bbs/board.php?bo_table=rnt&page=1\", waiting until \"domcontentloaded\"\n",
-    "농심이스포츠: 시간 초과: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09\", waiting until \"domcontentloaded\"\n"
+    "농심이스포츠: 시간 초과: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09\", waiting until \"domcontentloaded\"\n",
+    "한화생명e스포츠: 시간 초과: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.hanwhain.com/portal/apply/recruit\", waiting until \"domcontentloaded\"\n"
   ]
 }
