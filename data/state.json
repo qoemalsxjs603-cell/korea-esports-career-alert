@@ -23,7 +23,7 @@
           "matched": "Esports"
         }
       ],
-      "checked_at": "2026-07-14T15:38:39.331911+00:00"
+      "checked_at": "2026-07-14T17:21:23.204366+00:00"
     },
     "smilegate": {
       "name": "스마일게이트",
@@ -31,7 +31,7 @@
       "url": "https://careers.smilegate.com/apply/announce",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-14T15:38:56.049793+00:00"
+      "checked_at": "2026-07-14T17:21:40.226675+00:00"
     },
     "kespa": {
       "name": "한국e스포츠협회(KeSPA)",
@@ -39,7 +39,7 @@
       "url": "https://www.e-sports.or.kr/news/notice?brd_id=&sh_brd_class=103&currPage=1&sh_value=",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-14T15:39:04.474998+00:00"
+      "checked_at": "2026-07-14T17:21:48.031054+00:00"
     },
     "ccon": {
       "name": "충남콘텐츠진흥원",
@@ -140,7 +140,7 @@
           "matched": "직원채용"
         }
       ],
-      "checked_at": "2026-07-14T15:39:13.350807+00:00"
+      "checked_at": "2026-07-14T17:21:56.517254+00:00"
     },
     "gcon": {
       "name": "경기콘텐츠진흥원",
@@ -206,7 +206,7 @@
           "matched": "채용 공고"
         }
       ],
-      "checked_at": "2026-07-14T15:39:23.496297+00:00"
+      "checked_at": "2026-07-14T17:22:06.073712+00:00"
     },
     "t1": {
       "name": "T1",
@@ -433,7 +433,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-14T15:40:17.293310+00:00"
+      "checked_at": "2026-07-14T17:22:59.972144+00:00"
     },
     "geng": {
       "name": "Gen.G",
@@ -562,157 +562,15 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-14T15:40:26.531830+00:00"
+      "checked_at": "2026-07-14T17:23:09.004879+00:00"
     },
     "dplus_kia": {
       "name": "디플러스 기아",
       "category": "이스포츠 구단",
       "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/31686508",
-      "keys": [
-        "065f6f0dd6f045e33774034d",
-        "0a2b56d15bfac1bf2a2fe299",
-        "0a37f8b6d7eb0bedcb13176d",
-        "1ea12aec0b25f2a2c2e61222",
-        "1fc233c6bf1956a4a3343222",
-        "32a192f2753ba51968e8ee31",
-        "4086d17644b092caf23a6172",
-        "48a77d2c7978b0414754085b",
-        "7aa331be10528f30e6787b93",
-        "9da05b57da015cc50fbfa700",
-        "a313cdcd8e278dcff866ee0f",
-        "c661430b9f57662d532ab08c",
-        "cbc94cad3c26da0536afd80d",
-        "d939c66a1c8aefaf3b0b182c",
-        "e044e59bde419858012bcdfc",
-        "e4d425bfea27028b10684b58",
-        "f789bd63e0f6a837ad320247",
-        "fa126a89be853ad807a2577a",
-        "fd93c49ac1f5b2a31d228ec2",
-        "fe15b4c6f318a3b98d209ea8"
-      ],
-      "items": [
-        {
-          "key": "a313cdcd8e278dcff866ee0f",
-          "title": "Dplus KIA Esports 지원파트 인사/총무 채용 경력 서울 대졸↑ 마감 (~2025.05.29) HRD·HRM,인사담당자 외 1",
-          "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/31686508",
-          "matched": ""
-        },
-        {
-          "key": "fe15b4c6f318a3b98d209ea8",
-          "title": "JOBKOREA",
-          "url": "https://www.jobkorea.co.kr/",
-          "matched": ""
-        },
-        {
-          "key": "e044e59bde419858012bcdfc",
-          "title": "전체 채용정보",
-          "url": "https://www.jobkorea.co.kr/recruit/joblist?menucode=local&localorder=1",
-          "matched": ""
-        },
-        {
-          "key": "7aa331be10528f30e6787b93",
-          "title": "신입공채",
-          "url": "https://www.jobkorea.co.kr/Starter/",
-          "matched": ""
-        },
-        {
-          "key": "32a192f2753ba51968e8ee31",
-          "title": "헤드헌팅",
-          "url": "https://www.jobkorea.co.kr/headhunting/home",
-          "matched": ""
-        },
-        {
-          "key": "065f6f0dd6f045e33774034d",
-          "title": "기업정보 게시물",
-          "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/C/31686508",
-          "matched": ""
-        },
-        {
-          "key": "cbc94cad3c26da0536afd80d",
-          "title": "연봉정보 게시물",
-          "url": "https://www.jobkorea.co.kr/Recruit/Salary/31686508",
-          "matched": ""
-        },
-        {
-          "key": "d939c66a1c8aefaf3b0b182c",
-          "title": "[Dplus KIA] 팬커뮤니케이션팀 콘텐츠 PD 채용공고 경력 서울 무관 마감 (~2025.09.29) 크리에이터",
-          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/47442548?Oem_Code=C1&sc=225",
-          "matched": ""
-        },
-        {
-          "key": "c661430b9f57662d532ab08c",
-          "title": "[Dplus KIA] 팬커뮤니케이션팀 SNS 담당자 채용공고 경력 서울 무관 마감 (~2025.09.29) 크리에이터",
-          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/47439657?Oem_Code=C1&sc=225",
-          "matched": ""
-        },
-        {
-          "key": "fa126a89be853ad807a2577a",
-          "title": "[Dplus KIA] 팬커뮤니케이션팀 SNS 담당자 채용공고 경력 서울 무관 마감 (~2025.08.04) 크리에이터",
-          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/47124995?Oem_Code=C1&sc=225",
-          "matched": ""
-        },
-        {
-          "key": "fd93c49ac1f5b2a31d228ec2",
-          "title": "[Dplus KIA] 팬커뮤니케이션팀 콘텐츠 PD 채용공고 경력 서울 무관 마감 (~2025.08.04) 크리에이터",
-          "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/47124990?Oem_Code=C1&sc=225",
-          "matched": ""
-        },
-        {
-          "key": "1ea12aec0b25f2a2c2e61222",
-          "title": "취업톡톡 동문/기업/직무 질문하기",
-          "url": "https://www.jobkorea.co.kr/User/Qstn/QstnWrite",
-          "matched": ""
-        },
-        {
-          "key": "1fc233c6bf1956a4a3343222",
-          "title": "신고하기 불량·허위정보 신고하기",
-          "url": "https://www.jobkorea.co.kr/help/inquiry?ctgrNo=603&CoName=%EC%97%90%EC%9D%B4%EB%94%94%EC%9D%B4%EC%8A%A4%ED%8F%AC%EC%B8%A0",
-          "matched": ""
-        },
-        {
-          "key": "0a37f8b6d7eb0bedcb13176d",
-          "title": "공지사항",
-          "url": "https://www.jobkorea.co.kr/help/notice",
-          "matched": ""
-        },
-        {
-          "key": "9da05b57da015cc50fbfa700",
-          "title": "잡코리아 개인정보처리방침 개정 안내 18.05.09",
-          "url": "https://www.jobkorea.co.kr/help/notice/view?no=13954",
-          "matched": ""
-        },
-        {
-          "key": "4086d17644b092caf23a6172",
-          "title": "서비스 전체보기",
-          "url": "https://www.jobkorea.co.kr/Service/SiteMap",
-          "matched": ""
-        },
-        {
-          "key": "48a77d2c7978b0414754085b",
-          "title": "인재채용",
-          "url": "http://company.jobkorea.co.kr/Recruit/default.asp",
-          "matched": ""
-        },
-        {
-          "key": "0a2b56d15bfac1bf2a2fe299",
-          "title": "블로그",
-          "url": "https://blog.naver.com/jobkorea1",
-          "matched": ""
-        },
-        {
-          "key": "e4d425bfea27028b10684b58",
-          "title": "페이스북",
-          "url": "https://www.facebook.com/jobkorea",
-          "matched": ""
-        },
-        {
-          "key": "f789bd63e0f6a837ad320247",
-          "title": "인스타그램",
-          "url": "https://www.instagram.com/jobkorea_albamon/",
-          "matched": ""
-        }
-      ],
-      "checked_at": "2026-07-14T15:40:39.736188+00:00"
+      "keys": [],
+      "items": [],
+      "checked_at": "2026-07-14T17:23:18.443921+00:00"
     },
     "hanwha": {
       "name": "한화생명e스포츠",
@@ -720,7 +578,7 @@
       "url": "https://www.hanwhain.com/portal/apply/recruit",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-14T15:40:56.902419+00:00"
+      "checked_at": "2026-07-14T17:23:33.755102+00:00"
     },
     "tencent": {
       "name": "텐센트 공식 채용",
@@ -737,7 +595,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-14T15:41:08.061141+00:00"
+      "checked_at": "2026-07-14T17:23:44.094028+00:00"
     },
     "tencent_linkedin": {
       "name": "텐센트 LinkedIn",
@@ -745,7 +603,7 @@
       "url": "https://www.linkedin.com/jobs/search/?currentJobId=4414650508&f_C=166328&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4414650508%2C4414641685%2C4418983257%2C4414644640%2C4421676064%2C4399119770%2C4414650428%2C4414643683",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-14T15:42:34.624017+00:00"
+      "checked_at": "2026-07-14T17:25:10.139085+00:00"
     },
     "bytedance_korea": {
       "name": "틱톡·바이트댄스 코리아",
@@ -753,7 +611,7 @@
       "url": "https://joinbytedance.com/search?recruitment_id_list=&job_category_id_list=&subject_id_list=&location_code_list=CT_134&keyword=&limit=12&offset=0",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-14T15:42:46.437756+00:00"
+      "checked_at": "2026-07-14T17:25:21.815226+00:00"
     },
     "osan_university": {
       "name": "오산대학교",
@@ -761,7 +619,7 @@
       "url": "https://www.osan.ac.kr/index.html?menuno=958",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-14T15:42:59.605787+00:00"
+      "checked_at": "2026-07-14T17:25:33.717188+00:00"
     },
     "nongshim_esports": {
       "name": "농심이스포츠",
@@ -928,7 +786,7 @@
       "checked_at": "2026-07-13T11:21:57.745848+00:00"
     }
   },
-  "last_run": "2026-07-14T15:42:59.643640+00:00",
+  "last_run": "2026-07-14T17:25:33.745661+00:00",
   "last_errors": [
     "농심이스포츠: 시간 초과: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09\", waiting until \"domcontentloaded\"\n"
   ]
