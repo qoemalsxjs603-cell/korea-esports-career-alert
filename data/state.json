@@ -23,7 +23,7 @@
           "matched": "Esports"
         }
       ],
-      "checked_at": "2026-07-16T10:17:10.719764+00:00"
+      "checked_at": "2026-07-16T14:07:46.052627+00:00"
     },
     "smilegate": {
       "name": "스마일게이트",
@@ -31,7 +31,7 @@
       "url": "https://careers.smilegate.com/apply/announce",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-16T10:17:25.864151+00:00"
+      "checked_at": "2026-07-16T14:08:03.068469+00:00"
     },
     "kespa": {
       "name": "한국e스포츠협회(KeSPA)",
@@ -39,7 +39,7 @@
       "url": "https://www.e-sports.or.kr/news/notice?brd_id=&sh_brd_class=103&currPage=1&sh_value=",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-16T10:17:33.454675+00:00"
+      "checked_at": "2026-07-16T14:08:11.373714+00:00"
     },
     "ccon": {
       "name": "충남콘텐츠진흥원",
@@ -140,7 +140,7 @@
           "matched": "직원채용"
         }
       ],
-      "checked_at": "2026-07-16T10:17:41.760380+00:00"
+      "checked_at": "2026-07-16T14:08:20.717631+00:00"
     },
     "gcon": {
       "name": "경기콘텐츠진흥원",
@@ -213,7 +213,7 @@
           "matched": "채용 공고"
         }
       ],
-      "checked_at": "2026-07-16T10:17:51.381192+00:00"
+      "checked_at": "2026-07-16T14:08:31.292988+00:00"
     },
     "t1": {
       "name": "T1",
@@ -440,7 +440,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-16T10:18:45.300727+00:00"
+      "checked_at": "2026-07-16T14:09:25.219407+00:00"
     },
     "geng": {
       "name": "Gen.G",
@@ -569,7 +569,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-16T10:18:54.685175+00:00"
+      "checked_at": "2026-07-16T14:09:34.776518+00:00"
     },
     "dplus_kia": {
       "name": "디플러스 기아",
@@ -719,7 +719,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-16T10:19:05.930151+00:00"
+      "checked_at": "2026-07-16T14:09:47.772190+00:00"
     },
     "hanwha": {
       "name": "한화생명e스포츠",
@@ -727,7 +727,7 @@
       "url": "https://www.hanwhain.com/portal/apply/recruit",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-16T10:19:21.142462+00:00"
+      "checked_at": "2026-07-16T14:10:05.214687+00:00"
     },
     "tencent": {
       "name": "텐센트 공식 채용",
@@ -744,7 +744,7 @@
           "matched": ""
         }
       ],
-      "checked_at": "2026-07-16T10:19:31.640015+00:00"
+      "checked_at": "2026-07-16T14:10:15.979232+00:00"
     },
     "tencent_linkedin": {
       "name": "텐센트 LinkedIn",
@@ -752,7 +752,7 @@
       "url": "https://www.linkedin.com/jobs/search/?currentJobId=4414650508&f_C=166328&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4414650508%2C4414641685%2C4418983257%2C4414644640%2C4421676064%2C4399119770%2C4414650428%2C4414643683",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-16T10:20:55.580243+00:00"
+      "checked_at": "2026-07-16T14:11:42.494079+00:00"
     },
     "bytedance_korea": {
       "name": "틱톡·바이트댄스 코리아",
@@ -760,7 +760,7 @@
       "url": "https://joinbytedance.com/search?recruitment_id_list=&job_category_id_list=&subject_id_list=&location_code_list=CT_134&keyword=&limit=12&offset=0",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-16T10:21:07.031960+00:00"
+      "checked_at": "2026-07-16T14:11:54.842031+00:00"
     },
     "osan_university": {
       "name": "오산대학교",
@@ -768,7 +768,7 @@
       "url": "https://www.osan.ac.kr/index.html?menuno=958",
       "keys": [],
       "items": [],
-      "checked_at": "2026-07-16T10:21:18.825378+00:00"
+      "checked_at": "2026-07-16T14:12:08.138581+00:00"
     },
     "nongshim_esports": {
       "name": "농심이스포츠",
@@ -935,7 +935,7 @@
       "checked_at": "2026-07-15T02:56:18.601121+00:00"
     }
   },
-  "last_run": "2026-07-16T10:21:18.862005+00:00",
+  "last_run": "2026-07-16T14:12:08.178105+00:00",
   "last_errors": [
     "농심이스포츠: 시간 초과: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09\", waiting until \"domcontentloaded\"\n"
   ]
