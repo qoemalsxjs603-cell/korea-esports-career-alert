@@ -4,10 +4,12 @@
     "category": "게임사",
     "name": "크래프톤",
     "url": "https://www.krafton.com/careers/jobs/",
+    "parser": "generic",
     "mode": "keyword",
     "keywords": [
       "Esports"
     ],
+    "link_include_regex": "/careers/jobs/|/jobs/",
     "wait_ms": 5000,
     "max_items": 250
   },
@@ -16,11 +18,13 @@
     "category": "게임사",
     "name": "스마일게이트",
     "url": "https://careers.smilegate.com/apply/announce",
+    "parser": "generic",
     "mode": "keyword",
     "keywords": [
       "IP이스포츠",
       "이스포츠"
     ],
+    "link_include_regex": "announce|recruit|job|apply",
     "wait_ms": 5000,
     "max_items": 250
   },
@@ -29,10 +33,12 @@
     "category": "공공기관",
     "name": "한국e스포츠협회(KeSPA)",
     "url": "https://www.e-sports.or.kr/news/notice?brd_id=&sh_brd_class=103&currPage=1&sh_value=",
+    "parser": "generic",
     "mode": "keyword",
     "keywords": [
       "채용 공고"
     ],
+    "link_include_regex": "notice_view|brd_id=",
     "wait_ms": 3500,
     "max_items": 150
   },
@@ -41,22 +47,37 @@
     "category": "공공기관",
     "name": "충남콘텐츠진흥원",
     "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&page=1",
+    "parser": "ccon_board",
     "mode": "keyword",
     "keywords": [
       "직원채용"
     ],
-    "wait_ms": 3500,
-    "max_items": 150
+    "only_status": [
+      "진행중"
+    ],
+    "exclude_keywords": [
+      "합격",
+      "결과",
+      "서류전형",
+      "면접전형",
+      "필기전형",
+      "임용등록",
+      "세부일정"
+    ],
+    "wait_ms": 3000,
+    "max_items": 80
   },
   {
     "id": "gcon",
     "category": "공공기관",
     "name": "경기콘텐츠진흥원",
     "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/list.do?menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+    "parser": "generic",
     "mode": "keyword",
     "keywords": [
       "채용 공고"
     ],
+    "link_include_regex": "B0000023|view\\.do|nttId|bbs",
     "wait_ms": 3500,
     "max_items": 150
   },
@@ -65,64 +86,55 @@
     "category": "이스포츠 구단",
     "name": "농심이스포츠",
     "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09",
+    "parser": "saramin_company",
     "mode": "new",
     "wait_ms": 6000,
-    "max_items": 150,
-    "url_hints": [
-      "rec_idx",
-      "recruit",
-      "job"
-    ]
+    "max_items": 100
   },
   {
     "id": "t1",
     "category": "이스포츠 구단",
     "name": "T1",
     "url": "https://www.t1.gg/new-page-2",
+    "parser": "t1_body",
     "mode": "new",
-    "wait_ms": 6000,
-    "max_items": 150,
-    "accept_external_links": true
+    "wait_ms": 5000,
+    "max_items": 100
   },
   {
     "id": "geng",
     "category": "이스포츠 구단",
     "name": "Gen.G",
     "url": "https://geng.career.greetinghr.com/ko/work-with-us",
+    "parser": "generic",
     "mode": "new",
+    "link_include_regex": "/o/|position|job|career|apply",
     "wait_ms": 6000,
     "max_items": 200,
-    "url_hints": [
-      "o/",
-      "position",
-      "job",
-      "career",
-      "apply"
-    ]
+    "accept_external_links": true
   },
   {
     "id": "dplus_kia",
     "category": "이스포츠 구단",
     "name": "디플러스 기아",
     "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/31686508",
+    "parser": "jobkorea_company",
     "mode": "new",
     "wait_ms": 6000,
-    "max_items": 150,
-    "url_hints": [
-      "Recruit/GI_Read",
-      "recruit",
-      "job"
-    ]
+    "max_items": 100,
+    "detail_check_limit": 30
   },
   {
     "id": "hanwha",
     "category": "이스포츠 구단",
     "name": "한화생명e스포츠",
     "url": "https://www.hanwhain.com/portal/apply/recruit",
+    "parser": "generic",
     "mode": "keyword",
     "keywords": [
       "e-스포츠"
     ],
+    "link_include_regex": "recruit|apply|job|announce",
     "wait_ms": 6000,
     "max_items": 250
   },
@@ -131,21 +143,18 @@
     "category": "기타",
     "name": "텐센트 공식 채용",
     "url": "https://careers.tencent.com/en-us/search.html?query=ci_701",
+    "parser": "generic",
     "mode": "new",
+    "link_include_regex": "jobdesc|position|job|recruit",
     "wait_ms": 7000,
-    "max_items": 250,
-    "url_hints": [
-      "jobdesc",
-      "position",
-      "job",
-      "recruit"
-    ]
+    "max_items": 250
   },
   {
     "id": "tencent_linkedin",
     "category": "기타",
     "name": "텐센트 LinkedIn",
     "url": "https://www.linkedin.com/jobs/search/?currentJobId=4414650508&f_C=166328&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4414650508%2C4414641685%2C4418983257%2C4414644640%2C4421676064%2C4399119770%2C4414650428%2C4414643683",
+    "parser": "generic",
     "mode": "criteria",
     "criteria_any": [
       [
@@ -164,19 +173,17 @@
       "onsite",
       "현장 근무"
     ],
+    "link_include_regex": "/jobs/view/",
     "detail_check": true,
     "wait_ms": 7000,
-    "max_items": 100,
-    "url_hints": [
-      "/jobs/view/",
-      "currentJobId"
-    ]
+    "max_items": 100
   },
   {
     "id": "bytedance_korea",
     "category": "기타",
     "name": "틱톡·바이트댄스 코리아",
     "url": "https://joinbytedance.com/search?recruitment_id_list=&job_category_id_list=&subject_id_list=&location_code_list=CT_134&keyword=&limit=12&offset=0",
+    "parser": "generic",
     "mode": "keyword",
     "keywords": [
       "Game",
@@ -184,24 +191,22 @@
       "Esports",
       "E-sports"
     ],
+    "link_include_regex": "position|job|detail",
     "wait_ms": 7000,
-    "max_items": 200,
-    "url_hints": [
-      "position",
-      "job",
-      "detail"
-    ]
+    "max_items": 200
   },
   {
     "id": "osan_university",
     "category": "기타",
     "name": "오산대학교",
     "url": "https://www.osan.ac.kr/index.html?menuno=958",
+    "parser": "generic",
     "mode": "keyword",
     "keywords": [
       "교수 초빙 공고",
       "강사 공개채용 초빙 공고"
     ],
+    "link_include_regex": "view|board|article|notice",
     "wait_ms": 4500,
     "max_items": 150
   }
