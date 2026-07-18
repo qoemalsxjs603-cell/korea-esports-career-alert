@@ -1,0 +1,31 @@
+V10 완전 교체 방법
+
+이번에는 이전 버전에 파일을 일부 덧대지 말고 저장소 파일을 v10으로 완전히 교체합니다.
+
+1. GitHub 저장소의 Code 화면으로 이동합니다.
+2. 기존 파일 중 아래 항목을 삭제합니다.
+   - .github/workflows/job-alert.yml
+   - config 폴더
+   - data 폴더
+   - job_alert.py
+   - requirements.txt
+   - README.md
+   - 이전 버전 교체방법 txt 파일
+3. v10 ZIP의 아래 항목을 업로드합니다.
+   - config
+   - data
+   - job_alert.py
+   - requirements.txt
+   - README.md
+4. .github/workflows/job-alert.yml은 GitHub 편집 화면에서 새 내용으로 생성하거나 교체합니다.
+5. Actions에서 Focused Esports Job Alert v10을 선택합니다.
+6. diagnostic을 실행합니다.
+7. data/last_run_report.json을 확인합니다.
+8. normal을 한 번 실행합니다.
+   - 이 첫 normal은 현재 공고를 기준값으로 저장하며 메일은 보내지 않습니다.
+9. 이후 자동 실행을 기다립니다.
+
+중요:
+- 기존 GitHub Secrets는 삭제되지 않으므로 다시 입력할 필요가 없습니다.
+- v10의 data/state.json을 반드시 올려 이전 버전의 잘못된 공고 이력을 제거해야 합니다.
+- 첫 normal 실행 후부터 새로 생긴 공고만 메일로 전송됩니다.
