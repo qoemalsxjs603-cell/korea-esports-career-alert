@@ -1,0 +1,20 @@
+V12 완전 교체 방법
+
+현재 v11은 diagnostic만 실행했고 initialized_before_run이 false이므로
+v12의 data/state.json으로 완전히 초기화해도 안전합니다.
+
+1. GitHub Code 화면에서 다음을 삭제합니다.
+   config, data, job_alert.py, requirements.txt, README.md, 이전 안내 txt
+
+2. v12 ZIP에서 다음을 업로드합니다.
+   config, data, job_alert.py, requirements.txt, README.md, V12_완전교체방법.txt
+
+3. .github/workflows/job-alert.yml 내용을 v12 파일로 교체합니다.
+
+4. Actions에서 다음 순서로 실행합니다.
+   diagnostic → normal
+
+5. 첫 normal은 현재 공고를 기준값으로만 저장합니다.
+   이후 새 공고만 메일로 옵니다.
+
+GitHub Secrets는 다시 입력할 필요가 없습니다.
