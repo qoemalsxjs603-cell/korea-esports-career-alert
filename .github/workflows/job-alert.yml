@@ -1,4 +1,4 @@
-name: Focused Esports Job Alert v9.1
+name: Focused Esports Job Alert v10
 
 on:
   schedule:
@@ -12,16 +12,16 @@ on:
         type: choice
         options:
           - normal
-          - test_email
           - diagnostic
+          - baseline
+          - test_email
           - notify_t1_current
-          - reset_baseline
 
 permissions:
   contents: write
 
 concurrency:
-  group: focused-esports-job-alert-v9
+  group: focused-esports-job-alert-v10
   cancel-in-progress: false
 
 jobs:
@@ -47,7 +47,7 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
 
-      - name: 코드 자체 점검
+      - name: 전용 파서 자체 점검
         run: python job_alert.py --self-test
 
       - name: 공고 확인
@@ -62,14 +62,14 @@ jobs:
           MAIL_TO: ${{ secrets.MAIL_TO }}
         run: |
           ACTION="${{ github.event.inputs.action }}"
-          if [ "$ACTION" = "test_email" ]; then
-            python job_alert.py --test-email
-          elif [ "$ACTION" = "diagnostic" ]; then
+          if [ "$ACTION" = "diagnostic" ]; then
             python job_alert.py --diagnostic
+          elif [ "$ACTION" = "baseline" ]; then
+            python job_alert.py --baseline
+          elif [ "$ACTION" = "test_email" ]; then
+            python job_alert.py --test-email
           elif [ "$ACTION" = "notify_t1_current" ]; then
             python job_alert.py --notify-t1-current
-          elif [ "$ACTION" = "reset_baseline" ]; then
-            python job_alert.py --reset-baseline
           else
             python job_alert.py
           fi
@@ -85,7 +85,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/state.json data/last_run_report.json
-          git commit -m "chore: update v9 job alert state [skip ci]"
+          git commit -m "chore: update v10 job alert state [skip ci]"
 
           for i in 1 2 3; do
             git pull --rebase origin "${GITHUB_REF_NAME}" && \
