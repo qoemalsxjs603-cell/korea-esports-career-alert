@@ -1,4 +1,4 @@
-name: Focused Esports Job Alert v9
+name: Focused Esports Job Alert v9.1
 
 on:
   schedule:
@@ -14,6 +14,7 @@ on:
           - normal
           - test_email
           - diagnostic
+          - notify_t1_current
           - reset_baseline
 
 permissions:
@@ -65,6 +66,8 @@ jobs:
             python job_alert.py --test-email
           elif [ "$ACTION" = "diagnostic" ]; then
             python job_alert.py --diagnostic
+          elif [ "$ACTION" = "notify_t1_current" ]; then
+            python job_alert.py --notify-t1-current
           elif [ "$ACTION" = "reset_baseline" ]; then
             python job_alert.py --reset-baseline
           else
