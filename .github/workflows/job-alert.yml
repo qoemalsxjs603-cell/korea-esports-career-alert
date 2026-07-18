@@ -1,8 +1,7 @@
-name: Focused Esports Job Alert
+name: Focused Esports Job Alert v9
 
 on:
   schedule:
-    # 2시간마다 실행 (UTC 기준이지만 주기가 목적이므로 시간대와 무관)
     - cron: "0 */2 * * *"
   workflow_dispatch:
     inputs:
@@ -14,28 +13,29 @@ on:
         options:
           - normal
           - test_email
+          - diagnostic
           - reset_baseline
 
 permissions:
   contents: write
 
 concurrency:
-  group: focused-esports-job-alert
+  group: focused-esports-job-alert-v9
   cancel-in-progress: false
 
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 35
 
     steps:
       - name: 저장소 불러오기
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Python 설정
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: "pip"
@@ -45,6 +45,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
+
+      - name: 코드 자체 점검
+        run: python job_alert.py --self-test
 
       - name: 공고 확인
         env:
@@ -60,23 +63,26 @@ jobs:
           ACTION="${{ github.event.inputs.action }}"
           if [ "$ACTION" = "test_email" ]; then
             python job_alert.py --test-email
+          elif [ "$ACTION" = "diagnostic" ]; then
+            python job_alert.py --diagnostic
           elif [ "$ACTION" = "reset_baseline" ]; then
             python job_alert.py --reset-baseline
           else
             python job_alert.py
           fi
 
-      - name: 기준값 저장
+      - name: 상태와 진단 보고서 저장
+        if: github.event.inputs.action != 'test_email'
         run: |
-          if git diff --quiet -- data/state.json; then
-            echo "변경된 기준값 없음"
+          if git diff --quiet -- data/state.json data/last_run_report.json; then
+            echo "저장할 변경 없음"
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/state.json
-          git commit -m "chore: update job alert state [skip ci]"
+          git add data/state.json data/last_run_report.json
+          git commit -m "chore: update v9 job alert state [skip ci]"
 
           for i in 1 2 3; do
             git pull --rebase origin "${GITHUB_REF_NAME}" && \
