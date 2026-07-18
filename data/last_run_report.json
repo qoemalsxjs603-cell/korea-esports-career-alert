@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "run_at": "2026-07-18T20:17:18+09:00",
-  "new_count": 5,
+  "run_at": "2026-07-18T20:23:17+09:00",
+  "new_count": 0,
   "error_count": 1,
   "sources": [
     {
@@ -83,7 +83,7 @@
       "status": "success",
       "warning": "",
       "current_count": 5,
-      "new_count": 5,
+      "new_count": 0,
       "items": [
         {
           "item_id": "t1:esports-t1-video-content-팀리드:no-date",
