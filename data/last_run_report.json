@@ -1,5 +1,293 @@
 {
   "version": 10,
-  "status": "not_run_yet",
-  "sources": []
+  "run_at": "2026-07-18T22:17:45+09:00",
+  "diagnostic": true,
+  "initialized_before_run": false,
+  "verified_source_count": 10,
+  "unverified_source_count": 4,
+  "new_candidate_count": 0,
+  "sources": [
+    {
+      "source_id": "krafton",
+      "name": "크래프톤",
+      "status": "success",
+      "verified": true,
+      "fetch_method": "browser",
+      "parser_method": "generic-strict",
+      "message": "조건 일치 2건",
+      "current_count": 2,
+      "previous_active_count": 0,
+      "new_candidate_count": 2,
+      "items": [
+        {
+          "item_id": "krafton:url:22196fc97beb396b50f2",
+          "title": "TOP",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "krafton:url:122437079696b2c19779",
+          "title": "Family Site",
+          "posted_at": "",
+          "deadline": ""
+        }
+      ]
+    },
+    {
+      "source_id": "smilegate",
+      "name": "스마일게이트",
+      "status": "success",
+      "verified": true,
+      "fetch_method": "browser",
+      "parser_method": "generic-strict",
+      "message": "페이지는 정상이나 지정 키워드 없음",
+      "current_count": 0,
+      "previous_active_count": 0,
+      "new_candidate_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "kespa",
+      "name": "한국e스포츠협회(KeSPA)",
+      "status": "unverified",
+      "verified": false,
+      "fetch_method": "requests",
+      "parser_method": "generic-strict",
+      "message": "페이지 건강성 검증 실패",
+      "current_count": 0,
+      "previous_active_count": 0,
+      "new_candidate_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "ccon",
+      "name": "충남콘텐츠진흥원",
+      "status": "success",
+      "verified": true,
+      "fetch_method": "requests",
+      "parser_method": "ccon-static",
+      "message": "진행 원공고 0건",
+      "current_count": 0,
+      "previous_active_count": 0,
+      "new_candidate_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "gcon",
+      "name": "경기콘텐츠진흥원",
+      "status": "success",
+      "verified": true,
+      "fetch_method": "requests",
+      "parser_method": "generic-strict",
+      "message": "조건 일치 2건",
+      "current_count": 2,
+      "previous_active_count": 0,
+      "new_candidate_count": 2,
+      "items": [
+        {
+          "item_id": "gcon:nttid:12132",
+          "title": "2026년 경기콘텐츠진흥원 장애인 청년 인턴(체험형) 채용 공고",
+          "posted_at": "2026-07-09",
+          "deadline": ""
+        },
+        {
+          "item_id": "gcon:nttid:12131",
+          "title": "경기콘텐츠진흥원 2026년 3분기 기간제근로자 채용 공고",
+          "posted_at": "2026-07-09",
+          "deadline": ""
+        }
+      ]
+    },
+    {
+      "source_id": "nongshim_esports",
+      "name": "농심이스포츠",
+      "status": "success",
+      "verified": true,
+      "fetch_method": "requests",
+      "parser_method": "saramin-static",
+      "message": "현재 채용 공고 없음",
+      "current_count": 0,
+      "previous_active_count": 0,
+      "new_candidate_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "t1",
+      "name": "T1",
+      "status": "success",
+      "verified": true,
+      "fetch_method": "browser",
+      "parser_method": "t1-static",
+      "message": "활성 공고 4건",
+      "current_count": 4,
+      "previous_active_count": 0,
+      "new_candidate_count": 4,
+      "items": [
+        {
+          "item_id": "t1:esports-t1-video-content-팀리드:2026-07-13",
+          "title": "[Esports T1] Video Content 팀리드",
+          "posted_at": "2026-07-13",
+          "deadline": "2026-09-11"
+        },
+        {
+          "item_id": "t1:esports-t1-t1-base-camp-강남점-점장:2026-07-13",
+          "title": "[Esports T1] T1 Base Camp 강남점 점장",
+          "posted_at": "2026-07-13",
+          "deadline": "2026-09-11"
+        },
+        {
+          "item_id": "t1:esports-t1-t1-base-camp-강남점-셰프:2026-07-13",
+          "title": "[Esports T1] T1 Base Camp 강남점 셰프",
+          "posted_at": "2026-07-13",
+          "deadline": "2026-09-11"
+        },
+        {
+          "item_id": "t1:esports-t1-partnership-manager:2026-07-03",
+          "title": "[Esports T1] Partnership Manager",
+          "posted_at": "2026-07-03",
+          "deadline": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "source_id": "geng",
+      "name": "Gen.G",
+      "status": "success",
+      "verified": true,
+      "fetch_method": "requests",
+      "parser_method": "greeting-static",
+      "message": "실제 공고 8건",
+      "current_count": 8,
+      "previous_active_count": 0,
+      "new_candidate_count": 8,
+      "items": [
+        {
+          "item_id": "geng:greeting:225665",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:greeting:222900",
+          "title": "(경력) 교육 프로그램 상담 및 세일즈 담당 사원 / Education Program Sales Associate",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:greeting:222447",
+          "title": "(경력) 시니어 마케팅 매니저 (팬 그로스 & 액티베이션) / Senior Marketing Manager, Fan Growth & Activation",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:greeting:219927",
+          "title": "(경력) 해외 대학 입시 컨설턴트 / International Admissions Consultant",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:greeting:207038",
+          "title": "(경력) 머천다이징 세일즈 매니저 / MD Sales Manager (과장급)",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:greeting:203303",
+          "title": "(경력) 퍼포먼스 마케터(그로스 마케팅) / Performance Marketer(Growth Marketing) [Marketing&Sales Team]",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:greeting:202795",
+          "title": "(신입/경력) 미국 중·고등 교육 프로그램 기획 및 운영 담당 / International School Program Manager",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:greeting:172284",
+          "title": "(경력) 마케팅 사원 / Marketing Associate [Marketing Team]",
+          "posted_at": "",
+          "deadline": ""
+        }
+      ]
+    },
+    {
+      "source_id": "dplus_kia",
+      "name": "디플러스 기아",
+      "status": "unverified",
+      "verified": false,
+      "fetch_method": "browser",
+      "parser_method": "jobkorea-strict",
+      "message": "실제 GI_Read 공고나 명시적 빈 상태를 확인하지 못함",
+      "current_count": 0,
+      "previous_active_count": 0,
+      "new_candidate_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "hanwha",
+      "name": "한화생명e스포츠",
+      "status": "unverified",
+      "verified": false,
+      "fetch_method": "failed",
+      "parser_method": "fetch",
+      "message": "RuntimeError: 요청 실패 [ConnectTimeout: HTTPSConnectionPool(host='www.hanwhain.com', port=443): Max retries exceeded with url: /portal/apply/recruit (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hanwhain.com', port=443) at 0x7fb46cfd3980>, 'Connection to www.hanwhain.com timed out. (connect timeout=30)'))] / 브라우저 실패 [TimeoutError: Page.goto: Timeout 50000ms exceeded.\nCall log:\n  - navigating to \"https://www.hanwhain.com/portal/apply/recruit\", waiting until \"domcontentloaded\"\n]",
+      "current_count": 0,
+      "previous_active_count": 0,
+      "new_candidate_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "tencent",
+      "name": "텐센트 공식 채용",
+      "status": "unverified",
+      "verified": false,
+      "fetch_method": "browser",
+      "parser_method": "generic-strict",
+      "message": "공고 구조를 확정하지 못해 상태 보존",
+      "current_count": 0,
+      "previous_active_count": 0,
+      "new_candidate_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "tencent_linkedin",
+      "name": "텐센트 LinkedIn",
+      "status": "success",
+      "verified": true,
+      "fetch_method": "browser",
+      "parser_method": "generic-strict",
+      "message": "공고 링크는 있으나 지역·근무 조건 불일치",
+      "current_count": 0,
+      "previous_active_count": 0,
+      "new_candidate_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "bytedance_korea",
+      "name": "틱톡·바이트댄스 코리아",
+      "status": "success",
+      "verified": true,
+      "fetch_method": "browser",
+      "parser_method": "generic-strict",
+      "message": "페이지는 정상이나 지정 키워드 없음",
+      "current_count": 0,
+      "previous_active_count": 0,
+      "new_candidate_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "osan_university",
+      "name": "오산대학교",
+      "status": "success",
+      "verified": true,
+      "fetch_method": "requests",
+      "parser_method": "generic-strict",
+      "message": "페이지는 정상이나 지정 키워드 없음",
+      "current_count": 0,
+      "previous_active_count": 0,
+      "new_candidate_count": 0,
+      "items": []
+    }
+  ]
 }
