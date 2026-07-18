@@ -1,0 +1,31 @@
+V11 완전 교체 방법
+
+현재 v10은 diagnostic만 실행했고 initialized_before_run이 false이므로,
+기존 상태를 보존할 필요 없이 v11로 완전히 교체하는 것이 가장 안전합니다.
+
+1. GitHub Code 화면에서 아래를 삭제합니다.
+   - config
+   - data
+   - job_alert.py
+   - requirements.txt
+   - README.md
+   - 이전 버전 안내 txt
+
+2. v11 ZIP에서 아래를 업로드합니다.
+   - config
+   - data
+   - job_alert.py
+   - requirements.txt
+   - README.md
+   - V11_완전교체방법.txt
+
+3. .github/workflows/job-alert.yml 내용을 v11 파일로 교체합니다.
+
+4. Actions에서 아래 순서로 실행합니다.
+   - diagnostic
+   - normal
+
+5. 첫 normal은 현재 공고를 기준값으로만 저장합니다.
+   이후부터 새 공고만 메일로 옵니다.
+
+GitHub Secrets는 기존 저장소에 그대로 남으므로 다시 입력하지 않아도 됩니다.
