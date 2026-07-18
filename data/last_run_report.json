@@ -1,5 +1,287 @@
 {
   "version": 1,
-  "status": "not_run_yet",
-  "sources": []
+  "run_at": "2026-07-18T20:17:18+09:00",
+  "new_count": 5,
+  "error_count": 1,
+  "sources": [
+    {
+      "source_id": "krafton",
+      "name": "크래프톤",
+      "status": "success",
+      "warning": "",
+      "current_count": 0,
+      "new_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "smilegate",
+      "name": "스마일게이트",
+      "status": "success",
+      "warning": "",
+      "current_count": 0,
+      "new_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "kespa",
+      "name": "한국e스포츠협회(KeSPA)",
+      "status": "success",
+      "warning": "",
+      "current_count": 0,
+      "new_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "ccon",
+      "name": "충남콘텐츠진흥원",
+      "status": "success",
+      "warning": "",
+      "current_count": 1,
+      "new_count": 0,
+      "items": [
+        {
+          "item_id": "ccon:wr-id:373",
+          "title": "(재)충남콘텐츠진흥원 2026년 제2차 계약직 직원채용 공고",
+          "posted_at": "2026-07-16",
+          "deadline": ""
+        }
+      ]
+    },
+    {
+      "source_id": "gcon",
+      "name": "경기콘텐츠진흥원",
+      "status": "success",
+      "warning": "",
+      "current_count": 2,
+      "new_count": 0,
+      "items": [
+        {
+          "item_id": "gcon:nttid-12132",
+          "title": "2026년 경기콘텐츠진흥원 장애인 청년 인턴(체험형) 채용 공고",
+          "posted_at": "2026-07-09",
+          "deadline": ""
+        },
+        {
+          "item_id": "gcon:nttid-12131",
+          "title": "경기콘텐츠진흥원 2026년 3분기 기간제근로자 채용 공고",
+          "posted_at": "2026-07-09",
+          "deadline": ""
+        }
+      ]
+    },
+    {
+      "source_id": "nongshim_esports",
+      "name": "농심이스포츠",
+      "status": "error",
+      "error": "시간 초과: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09\", waiting until \"domcontentloaded\"\n",
+      "current_count": 0,
+      "new_count": 0
+    },
+    {
+      "source_id": "t1",
+      "name": "T1",
+      "status": "success",
+      "warning": "",
+      "current_count": 5,
+      "new_count": 5,
+      "items": [
+        {
+          "item_id": "t1:esports-t1-video-content-팀리드:no-date",
+          "title": "[Esports T1] Video Content 팀리드",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "t1:esports-t1-t1-base-camp-강남점-점장:no-date",
+          "title": "[Esports T1] T1 Base Camp 강남점 점장",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "t1:esports-t1-t1-base-camp-강남점-셰프:no-date",
+          "title": "[Esports T1] T1 Base Camp 강남점 셰프",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "t1:esports-t1-partnership-manager:no-date",
+          "title": "[Esports T1] Partnership Manager",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "t1:esports-t1-academy-기획-운영-pm:no-date",
+          "title": "[Esports T1 Academy] 기획/운영 PM",
+          "posted_at": "",
+          "deadline": ""
+        }
+      ]
+    },
+    {
+      "source_id": "geng",
+      "name": "Gen.G",
+      "status": "success",
+      "warning": "",
+      "current_count": 17,
+      "new_count": 0,
+      "items": [
+        {
+          "item_id": "geng:url:c0c8fe4aa69019dcda",
+          "title": "Gen.G",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:url:4b1076075c50fb52d8",
+          "title": "How We Work",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:url:0f707809123447b095",
+          "title": "Work With Us",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:url:c67574f4cdd44b1ea2",
+          "title": "FAQ",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-225665",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-222900",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-222447",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-219927",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-207038",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-203303",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-202795",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-172284",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-155530",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-100040",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-100039",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-100038",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:path-99652",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        }
+      ]
+    },
+    {
+      "source_id": "dplus_kia",
+      "name": "디플러스 기아",
+      "status": "success",
+      "warning": "",
+      "current_count": 0,
+      "new_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "hanwha",
+      "name": "한화생명e스포츠",
+      "status": "success",
+      "warning": "",
+      "current_count": 0,
+      "new_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "tencent",
+      "name": "텐센트 공식 채용",
+      "status": "success",
+      "warning": "",
+      "current_count": 0,
+      "new_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "tencent_linkedin",
+      "name": "텐센트 LinkedIn",
+      "status": "success",
+      "warning": "",
+      "current_count": 0,
+      "new_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "bytedance_korea",
+      "name": "틱톡·바이트댄스 코리아",
+      "status": "success",
+      "warning": "",
+      "current_count": 0,
+      "new_count": 0,
+      "items": []
+    },
+    {
+      "source_id": "osan_university",
+      "name": "오산대학교",
+      "status": "success",
+      "warning": "",
+      "current_count": 0,
+      "new_count": 0,
+      "items": []
+    }
+  ]
 }

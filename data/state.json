@@ -1,5 +1,435 @@
 {
   "version": 3,
-  "sources": {},
-  "last_run": null
+  "sources": {
+    "krafton": {
+      "name": "크래프톤",
+      "category": "게임사",
+      "url": "https://www.krafton.com/careers/jobs/",
+      "parser": "generic",
+      "seen_ever": {},
+      "active_ids": [],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 0,
+      "last_warning": ""
+    },
+    "smilegate": {
+      "name": "스마일게이트",
+      "category": "게임사",
+      "url": "https://careers.smilegate.com/apply/announce",
+      "parser": "generic",
+      "seen_ever": {},
+      "active_ids": [],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 0,
+      "last_warning": ""
+    },
+    "kespa": {
+      "name": "한국e스포츠협회(KeSPA)",
+      "category": "공공기관",
+      "url": "https://www.e-sports.or.kr/news/notice?brd_id=&sh_brd_class=103&currPage=1&sh_value=",
+      "parser": "generic",
+      "seen_ever": {},
+      "active_ids": [],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 0,
+      "last_warning": ""
+    },
+    "ccon": {
+      "name": "충남콘텐츠진흥원",
+      "category": "공공기관",
+      "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&page=1",
+      "parser": "ccon_board",
+      "seen_ever": {
+        "ccon:wr-id:373": {
+          "item_id": "ccon:wr-id:373",
+          "title": "(재)충남콘텐츠진흥원 2026년 제2차 계약직 직원채용 공고",
+          "url": "https://ccon.kr/bbs/board.php?bo_table=rnt&wr_id=373&page=1",
+          "matched": "직원채용 · 진행중",
+          "posted_at": "2026-07-16",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        }
+      },
+      "active_ids": [
+        "ccon:wr-id:373"
+      ],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 1,
+      "last_warning": ""
+    },
+    "gcon": {
+      "name": "경기콘텐츠진흥원",
+      "category": "공공기관",
+      "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/list.do?menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+      "parser": "generic",
+      "seen_ever": {
+        "gcon:nttid-12132": {
+          "item_id": "gcon:nttid-12132",
+          "title": "2026년 경기콘텐츠진흥원 장애인 청년 인턴(체험형) 채용 공고",
+          "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/view.do?nttId=12132&menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+          "matched": "채용 공고",
+          "posted_at": "2026-07-09",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "gcon:nttid-12131": {
+          "item_id": "gcon:nttid-12131",
+          "title": "경기콘텐츠진흥원 2026년 3분기 기간제근로자 채용 공고",
+          "url": "https://www.gcon.or.kr/gcon/bbs/B0000023/view.do?nttId=12131&menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1",
+          "matched": "채용 공고",
+          "posted_at": "2026-07-09",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        }
+      },
+      "active_ids": [
+        "gcon:nttid-12131",
+        "gcon:nttid-12132"
+      ],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 2,
+      "last_warning": ""
+    },
+    "t1": {
+      "name": "T1",
+      "category": "이스포츠 구단",
+      "url": "https://www.t1.gg/new-page-2",
+      "parser": "t1_body",
+      "seen_ever": {
+        "t1:esports-t1-video-content-팀리드:no-date": {
+          "item_id": "t1:esports-t1-video-content-팀리드:no-date",
+          "title": "[Esports T1] Video Content 팀리드",
+          "url": "https://www.t1.gg/new-page-2#esports-t1-video-content-팀리드",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "t1:esports-t1-t1-base-camp-강남점-점장:no-date": {
+          "item_id": "t1:esports-t1-t1-base-camp-강남점-점장:no-date",
+          "title": "[Esports T1] T1 Base Camp 강남점 점장",
+          "url": "https://www.t1.gg/new-page-2#esports-t1-t1-base-camp-강남점-점장",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "t1:esports-t1-t1-base-camp-강남점-셰프:no-date": {
+          "item_id": "t1:esports-t1-t1-base-camp-강남점-셰프:no-date",
+          "title": "[Esports T1] T1 Base Camp 강남점 셰프",
+          "url": "https://www.t1.gg/new-page-2#esports-t1-t1-base-camp-강남점-셰프",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "t1:esports-t1-partnership-manager:no-date": {
+          "item_id": "t1:esports-t1-partnership-manager:no-date",
+          "title": "[Esports T1] Partnership Manager",
+          "url": "https://www.t1.gg/new-page-2#esports-t1-partnership-manager",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "t1:esports-t1-academy-기획-운영-pm:no-date": {
+          "item_id": "t1:esports-t1-academy-기획-운영-pm:no-date",
+          "title": "[Esports T1 Academy] 기획/운영 PM",
+          "url": "https://www.t1.gg/new-page-2#esports-t1-academy-기획-운영-pm",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        }
+      },
+      "active_ids": [
+        "t1:esports-t1-academy-기획-운영-pm:no-date",
+        "t1:esports-t1-partnership-manager:no-date",
+        "t1:esports-t1-t1-base-camp-강남점-셰프:no-date",
+        "t1:esports-t1-t1-base-camp-강남점-점장:no-date",
+        "t1:esports-t1-video-content-팀리드:no-date"
+      ],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 5,
+      "last_warning": ""
+    },
+    "geng": {
+      "name": "Gen.G",
+      "category": "이스포츠 구단",
+      "url": "https://geng.career.greetinghr.com/ko/work-with-us",
+      "parser": "generic",
+      "seen_ever": {
+        "geng:url:c0c8fe4aa69019dcda": {
+          "item_id": "geng:url:c0c8fe4aa69019dcda",
+          "title": "Gen.G",
+          "url": "https://geng.career.greetinghr.com/ko",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:url:4b1076075c50fb52d8": {
+          "item_id": "geng:url:4b1076075c50fb52d8",
+          "title": "How We Work",
+          "url": "https://geng.career.greetinghr.com/ko/how-we-work",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:url:0f707809123447b095": {
+          "item_id": "geng:url:0f707809123447b095",
+          "title": "Work With Us",
+          "url": "https://geng.career.greetinghr.com/ko/work-with-us",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:url:c67574f4cdd44b1ea2": {
+          "item_id": "geng:url:c67574f4cdd44b1ea2",
+          "title": "FAQ",
+          "url": "https://geng.career.greetinghr.com/ko/faq",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-225665": {
+          "item_id": "geng:path-225665",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/225665",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-222900": {
+          "item_id": "geng:path-222900",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/222900",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-222447": {
+          "item_id": "geng:path-222447",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/222447",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-219927": {
+          "item_id": "geng:path-219927",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/219927",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-207038": {
+          "item_id": "geng:path-207038",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/207038",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-203303": {
+          "item_id": "geng:path-203303",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/203303",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-202795": {
+          "item_id": "geng:path-202795",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/202795",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-172284": {
+          "item_id": "geng:path-172284",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/172284",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-155530": {
+          "item_id": "geng:path-155530",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/155530",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-100040": {
+          "item_id": "geng:path-100040",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/100040",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-100039": {
+          "item_id": "geng:path-100039",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/100039",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-100038": {
+          "item_id": "geng:path-100038",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/100038",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        },
+        "geng:path-99652": {
+          "item_id": "geng:path-99652",
+          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "url": "https://geng.career.greetinghr.com/ko/o/99652",
+          "matched": "새 공고",
+          "posted_at": "",
+          "deadline": "",
+          "first_seen_at": "2026-07-18T20:17:18+09:00",
+          "last_seen_at": "2026-07-18T20:17:18+09:00"
+        }
+      },
+      "active_ids": [
+        "geng:path-100038",
+        "geng:path-100039",
+        "geng:path-100040",
+        "geng:path-155530",
+        "geng:path-172284",
+        "geng:path-202795",
+        "geng:path-203303",
+        "geng:path-207038",
+        "geng:path-219927",
+        "geng:path-222447",
+        "geng:path-222900",
+        "geng:path-225665",
+        "geng:path-99652",
+        "geng:url:0f707809123447b095",
+        "geng:url:4b1076075c50fb52d8",
+        "geng:url:c0c8fe4aa69019dcda",
+        "geng:url:c67574f4cdd44b1ea2"
+      ],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 17,
+      "last_warning": ""
+    },
+    "dplus_kia": {
+      "name": "디플러스 기아",
+      "category": "이스포츠 구단",
+      "url": "https://www.jobkorea.co.kr/Recruit/Co_Read/Recruit/C/31686508",
+      "parser": "jobkorea_company",
+      "seen_ever": {},
+      "active_ids": [],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 0,
+      "last_warning": ""
+    },
+    "hanwha": {
+      "name": "한화생명e스포츠",
+      "category": "이스포츠 구단",
+      "url": "https://www.hanwhain.com/portal/apply/recruit",
+      "parser": "generic",
+      "seen_ever": {},
+      "active_ids": [],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 0,
+      "last_warning": ""
+    },
+    "tencent": {
+      "name": "텐센트 공식 채용",
+      "category": "기타",
+      "url": "https://careers.tencent.com/en-us/search.html?query=ci_701",
+      "parser": "generic",
+      "seen_ever": {},
+      "active_ids": [],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 0,
+      "last_warning": ""
+    },
+    "tencent_linkedin": {
+      "name": "텐센트 LinkedIn",
+      "category": "기타",
+      "url": "https://www.linkedin.com/jobs/search/?currentJobId=4414650508&f_C=166328&geoId=92000000&origin=COMPANY_PAGE_JOBS_CLUSTER_EXPANSION&originToLandingJobPostings=4414650508%2C4414641685%2C4418983257%2C4414644640%2C4421676064%2C4399119770%2C4414650428%2C4414643683",
+      "parser": "generic",
+      "seen_ever": {},
+      "active_ids": [],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 0,
+      "last_warning": ""
+    },
+    "bytedance_korea": {
+      "name": "틱톡·바이트댄스 코리아",
+      "category": "기타",
+      "url": "https://joinbytedance.com/search?recruitment_id_list=&job_category_id_list=&subject_id_list=&location_code_list=CT_134&keyword=&limit=12&offset=0",
+      "parser": "generic",
+      "seen_ever": {},
+      "active_ids": [],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 0,
+      "last_warning": ""
+    },
+    "osan_university": {
+      "name": "오산대학교",
+      "category": "기타",
+      "url": "https://www.osan.ac.kr/index.html?menuno=958",
+      "parser": "generic",
+      "seen_ever": {},
+      "active_ids": [],
+      "last_success_at": "2026-07-18T20:17:18+09:00",
+      "last_count": 0,
+      "last_warning": ""
+    }
+  },
+  "last_run": "2026-07-18T20:17:18+09:00",
+  "last_errors": [
+    "농심이스포츠: 시간 초과: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09\", waiting until \"domcontentloaded\"\n"
+  ]
 }
