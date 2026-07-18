@@ -88,8 +88,11 @@
     "url": "https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09",
     "parser": "saramin_company",
     "mode": "new",
-    "wait_ms": 6000,
-    "max_items": 100
+    "wait_ms": 10000,
+    "max_items": 100,
+    "wait_until": "commit",
+    "allow_partial_load": true,
+    "navigation_timeout_ms": 70000
   },
   {
     "id": "t1",
@@ -106,12 +109,10 @@
     "category": "이스포츠 구단",
     "name": "Gen.G",
     "url": "https://geng.career.greetinghr.com/ko/work-with-us",
-    "parser": "generic",
+    "parser": "greetinghr",
     "mode": "new",
-    "link_include_regex": "/o/|position|job|career|apply",
     "wait_ms": 6000,
-    "max_items": 200,
-    "accept_external_links": true
+    "max_items": 100
   },
   {
     "id": "dplus_kia",

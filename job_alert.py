@@ -174,7 +174,7 @@ def slug_token(value: str, max_len: int = 70) -> str:
 def normalize_date_string(value: str) -> str:
     if not value:
         return ""
-    m = re.search(r"(20\d{2})[./-](\d{1,2})[./-](\d{1,2})", value)
+    m = re.search(r"(20\d{2})\s*[./-]\s*(\d{1,2})\s*[./-]\s*(\d{1,2})", value)
     if not m:
         return ""
     return f"{int(m.group(1)):04d}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
@@ -368,9 +368,9 @@ async def parse_t1_body(page: Page, source: dict[str, Any]) -> list[Item]:
 
         period = re.search(
             r"접수기간\s*[:：]\s*"
-            r"(20\d{2}[./-]\d{1,2}[./-]\d{1,2})(?:\s+\d{1,2}시)?"
+            r"(20\d{2}\s*[./-]\s*\d{1,2}\s*[./-]\s*\d{1,2})(?:\s+\d{1,2}시)?"
             r"\s*~\s*"
-            r"(20\d{2}[./-]\d{1,2}[./-]\d{1,2})(?:\s+\d{1,2}시)?",
+            r"(20\d{2}\s*[./-]\s*\d{1,2}\s*[./-]\s*\d{1,2})(?:\s+\d{1,2}시)?",
             block,
             re.I,
         )
@@ -607,6 +607,89 @@ async def parse_saramin_company(
     return output
 
 
+
+async def parse_greetinghr(
+    page: Page,
+    detail_page: Page,
+    source: dict[str, Any],
+    timeout_ms: int,
+) -> list[Item]:
+    raw = await page.evaluate(
+        """
+        () => {
+          const clean = s => (s || '').replace(/\\s+/g, ' ').trim();
+          const rows = [];
+          const seen = new Set();
+
+          for (const a of document.querySelectorAll('a[href]')) {
+            const href = a.href || '';
+            const match = href.match(/\\/(?:ko\\/)?o\\/(\\d+)(?:[/?#]|$)/i);
+            if (!match || seen.has(match[1])) continue;
+            seen.add(match[1]);
+            rows.push({
+              id: match[1],
+              href,
+              anchor_text: clean(a.innerText || a.textContent || '')
+            });
+          }
+          return rows;
+        }
+        """
+    )
+
+    output: list[Item] = []
+    for row in raw[: int(source.get("max_items", 100))]:
+        detail = await read_detail(detail_page, row["href"], timeout_ms)
+        if not detail or is_closed_text(detail):
+            continue
+
+        title = ""
+        try:
+            title = clean_title(
+                await detail_page.locator("h1").first.inner_text(timeout=2500)
+            )
+        except Exception:
+            pass
+
+        if not title or title.casefold() in GENERIC_NAV_TITLES:
+            try:
+                meta_title = await detail_page.locator(
+                    'meta[property="og:title"]'
+                ).get_attribute("content")
+                title = clean_title(meta_title or "")
+            except Exception:
+                pass
+
+        if not title or title.casefold() in GENERIC_NAV_TITLES:
+            title = clean_title(row.get("anchor_text", ""))
+
+        if not title or title.casefold() in GENERIC_NAV_TITLES:
+            continue
+        if title in {"Gen.G", "How We Work", "Work With Us", "FAQ"}:
+            continue
+
+        posted_at, deadline = extract_dates(detail)
+        if is_expired(deadline):
+            continue
+
+        output.append(
+            Item(
+                item_id=f"{source['id']}:greeting:{row['id']}",
+                source_id=source["id"],
+                category=source["category"],
+                source_name=source["name"],
+                title=title,
+                url=canonical_url(row["href"]),
+                context=detail[:1000],
+                matched="새 공고",
+                posted_at=posted_at,
+                deadline=deadline,
+            )
+        )
+
+    return output
+
+
 async def extract_generic_candidates(page: Page) -> list[dict[str, str]]:
     return await page.evaluate(
         """
@@ -753,10 +836,36 @@ async def crawl_source(
     detail_page.set_default_timeout(timeout_ms)
 
     try:
-        await page.goto(source["url"], wait_until="domcontentloaded", timeout=timeout_ms)
+        wait_until = source.get("wait_until", "domcontentloaded")
+        navigation_timeout_ms = int(source.get("navigation_timeout_ms", timeout_ms))
+        try:
+            await page.goto(
+                source["url"],
+                wait_until=wait_until,
+                timeout=navigation_timeout_ms,
+            )
+        except PlaywrightTimeoutError:
+            if not source.get("allow_partial_load") or page.url == "about:blank":
+                raise
+
         await page.wait_for_timeout(int(source.get("wait_ms", 4000)))
         await dismiss_popups(page)
         await auto_scroll(page)
+
+        body_preview = ""
+        try:
+            body_preview = normalize(
+                await page.locator("body").inner_text(timeout=5000)
+            )[:3000]
+        except Exception:
+            pass
+
+        if re.search(
+            r"(Access Denied|접근이 제한|비정상적인 접근|CAPTCHA|로봇이 아닙니다)",
+            body_preview,
+            re.I,
+        ):
+            raise RuntimeError("사이트의 자동접속 차단 화면이 표시됨")
 
         parser = source.get("parser", "generic")
         if parser == "t1_body":
@@ -767,6 +876,8 @@ async def crawl_source(
             items = await parse_jobkorea_company(page, detail_page, source, timeout_ms)
         elif parser == "saramin_company":
             items = await parse_saramin_company(page, detail_page, source, timeout_ms)
+        elif parser == "greetinghr":
+            items = await parse_greetinghr(page, detail_page, source, timeout_ms)
         else:
             items = await parse_generic(page, detail_page, source, timeout_ms)
 
@@ -927,6 +1038,9 @@ async def run(args: argparse.Namespace) -> int:
     if args.reset_baseline:
         state = empty_state()
 
+    if args.notify_t1_current:
+        state.setdefault("sources", {}).pop("t1", None)
+
     all_new: list[tuple[Item, str]] = []
     errors: list[str] = []
     report_sources: list[dict[str, Any]] = []
@@ -961,7 +1075,10 @@ async def run(args: argparse.Namespace) -> int:
             first_source_run = previous_state is None
             force_baseline = args.reset_baseline
             notify_first = (
-                source_id in settings.get("notify_existing_on_first_run_sources", [])
+                (
+                    source_id in settings.get("notify_existing_on_first_run_sources", [])
+                    or (args.notify_t1_current and source_id == "t1")
+                )
                 and not force_baseline
             )
 
@@ -1072,6 +1189,7 @@ async def run(args: argparse.Namespace) -> int:
 def self_test() -> None:
     assert clean_title("공고 N 새글") == "공고"
     assert normalize_date_string("2026.7.3") == "2026-07-03"
+    assert normalize_date_string("2026. 07. 13") == "2026-07-13"
     assert extract_unique_token("https://x.test/bbs/board.php?bo_table=rnt&wr_id=373") == "wr_id:373"
     assert extract_unique_token("https://www.jobkorea.co.kr/Recruit/GI_Read/46957648") == "path:46957648"
     one = make_item_id("ccon", "https://x.test/?wr_id=373", "공고 N 새글")
@@ -1087,6 +1205,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--reset-baseline", action="store_true")
     parser.add_argument("--diagnostic", action="store_true")
     parser.add_argument("--self-test", action="store_true")
+    parser.add_argument("--notify-t1-current", action="store_true")
     return parser.parse_args()
 
 
