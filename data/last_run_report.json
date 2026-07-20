@@ -1,10 +1,10 @@
 {
   "version": 12,
-  "run_at": "2026-07-20T15:54:04+09:00",
+  "run_at": "2026-07-20T20:07:43+09:00",
   "diagnostic": false,
   "initialized_before_run": true,
-  "verified_source_count": 13,
-  "unverified_source_count": 1,
+  "verified_source_count": 14,
+  "unverified_source_count": 0,
   "new_candidate_count": 0,
   "sources": [
     {
@@ -73,16 +73,29 @@
     {
       "source_id": "gcon",
       "name": "경기콘텐츠진흥원",
-      "status": "unverified",
-      "verified": false,
-      "fetch_method": "failed",
-      "parser_method": "fetch",
-      "message": "RuntimeError: 요청 실패 [ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))] / 브라우저 실패 [Error: Page.goto: net::ERR_CONNECTION_RESET at https://www.gcon.or.kr/gcon/bbs/B0000023/list.do?menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1\nCall log:\n  - navigating to \"https://www.gcon.or.kr/gcon/bbs/B0000023/list.do?menuNo=200123&sdate=&edate=&searchCate1=&searchCnd=3&searchWrd=&pageIndex=1\", waiting until \"domcontentloaded\"\n]",
-      "current_count": 0,
+      "status": "success",
+      "verified": true,
+      "fetch_method": "requests",
+      "parser_method": "generic-strict",
+      "message": "조건 일치 2건",
+      "current_count": 2,
       "previous_active_count": 2,
       "source_baseline_existed": true,
       "new_candidate_count": 0,
-      "items": []
+      "items": [
+        {
+          "item_id": "gcon:nttid:12132",
+          "title": "2026년 경기콘텐츠진흥원 장애인 청년 인턴(체험형) 채용 공고",
+          "posted_at": "2026-07-09",
+          "deadline": ""
+        },
+        {
+          "item_id": "gcon:nttid:12131",
+          "title": "경기콘텐츠진흥원 2026년 3분기 기간제근로자 채용 공고",
+          "posted_at": "2026-07-09",
+          "deadline": ""
+        }
+      ]
     },
     {
       "source_id": "nongshim_esports",
