@@ -1,10 +1,10 @@
 {
   "version": 12,
-  "run_at": "2026-07-21T23:07:40+09:00",
+  "run_at": "2026-07-22T02:27:45+09:00",
   "diagnostic": false,
   "initialized_before_run": true,
-  "verified_source_count": 14,
-  "unverified_source_count": 0,
+  "verified_source_count": 13,
+  "unverified_source_count": 1,
   "new_candidate_count": 0,
   "sources": [
     {
@@ -203,23 +203,16 @@
     {
       "source_id": "dplus_kia",
       "name": "디플러스 기아",
-      "status": "success",
-      "verified": true,
-      "fetch_method": "browser",
-      "parser_method": "jobkorea-strict",
-      "message": "실제 공고 1건",
-      "current_count": 1,
+      "status": "unverified",
+      "verified": false,
+      "fetch_method": "failed",
+      "parser_method": "fetch",
+      "message": "RuntimeError: 요청 실패 [ConnectTimeout: HTTPSConnectionPool(host='www.jobkorea.co.kr', port=443): Max retries exceeded with url: /company/45145639/recruit (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jobkorea.co.kr', port=443) at 0x7f0c0d29b080>, 'Connection to www.jobkorea.co.kr timed out. (connect timeout=30)'))] / 브라우저 실패 [TimeoutError: Page.goto: Timeout 50000ms exceeded.\nCall log:\n  - navigating to \"https://www.jobkorea.co.kr/company/45145639/recruit\", waiting until \"domcontentloaded\"\n]",
+      "current_count": 0,
       "previous_active_count": 1,
       "source_baseline_existed": true,
       "new_candidate_count": 0,
-      "items": [
-        {
-          "item_id": "dplus_kia:jobkorea:49579524",
-          "title": "[Dplus KIA] 조리장 채용(경력 3년 이상) 경력 서울 고졸↑ D-23 조리사",
-          "posted_at": "",
-          "deadline": ""
-        }
-      ]
+      "items": []
     },
     {
       "source_id": "hanwha",
@@ -289,7 +282,7 @@
       "name": "오산대학교",
       "status": "success",
       "verified": true,
-      "fetch_method": "requests",
+      "fetch_method": "browser",
       "parser_method": "generic-strict",
       "message": "페이지는 정상이나 지정 키워드 없음",
       "current_count": 0,
