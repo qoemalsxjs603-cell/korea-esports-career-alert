@@ -1,6 +1,6 @@
 {
   "version": 12,
-  "run_at": "2026-07-23T04:35:49+09:00",
+  "run_at": "2026-07-23T06:15:25+09:00",
   "diagnostic": false,
   "initialized_before_run": true,
   "verified_source_count": 14,
@@ -301,7 +301,7 @@
       "name": "오산대학교",
       "status": "success",
       "verified": true,
-      "fetch_method": "requests",
+      "fetch_method": "browser",
       "parser_method": "generic-strict",
       "message": "페이지는 정상이나 지정 키워드 없음",
       "current_count": 0,
