@@ -1,11 +1,11 @@
 {
   "version": 12,
-  "run_at": "2026-07-22T12:20:09+09:00",
+  "run_at": "2026-07-22T15:35:45+09:00",
   "diagnostic": false,
   "initialized_before_run": true,
-  "verified_source_count": 13,
-  "unverified_source_count": 1,
-  "new_candidate_count": 1,
+  "verified_source_count": 14,
+  "unverified_source_count": 0,
+  "new_candidate_count": 0,
   "sources": [
     {
       "source_id": "krafton",
@@ -54,7 +54,7 @@
       "name": "충남콘텐츠진흥원",
       "status": "success",
       "verified": true,
-      "fetch_method": "requests",
+      "fetch_method": "browser",
       "parser_method": "ccon-static",
       "message": "진행 원공고 1건",
       "current_count": 1,
@@ -209,9 +209,9 @@
       "parser_method": "jobkorea-strict",
       "message": "실제 공고 2건",
       "current_count": 2,
-      "previous_active_count": 1,
+      "previous_active_count": 2,
       "source_baseline_existed": true,
-      "new_candidate_count": 1,
+      "new_candidate_count": 0,
       "items": [
         {
           "item_id": "dplus_kia:jobkorea:49628870",
@@ -265,11 +265,11 @@
     {
       "source_id": "tencent_linkedin",
       "name": "텐센트 LinkedIn",
-      "status": "unverified",
-      "verified": false,
+      "status": "success",
+      "verified": true,
       "fetch_method": "browser",
       "parser_method": "generic-strict",
-      "message": "공고 구조를 확정하지 못해 상태 보존",
+      "message": "공고 링크는 있으나 지역·근무 조건 불일치",
       "current_count": 0,
       "previous_active_count": 0,
       "source_baseline_existed": true,
