@@ -9,7 +9,7 @@
       "baseline_ready": true,
       "seen_ever": {},
       "active_ids": [],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "실제 채용 카드 11건 중 키워드 일치 0건",
       "last_count": 0
     },
@@ -20,7 +20,7 @@
       "baseline_ready": true,
       "seen_ever": {},
       "active_ids": [],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "페이지는 정상이나 지정 키워드 없음",
       "last_count": 0
     },
@@ -31,7 +31,7 @@
       "baseline_ready": true,
       "seen_ever": {},
       "active_ids": [],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "공식 도메인 검색색인 0건 · 직접 사이트보다 반영이 늦을 수 있음",
       "last_count": 0
     },
@@ -47,13 +47,13 @@
           "posted_at": "2026-07-16",
           "deadline": "",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         }
       },
       "active_ids": [
         "ccon:wr-id:373"
       ],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "진행 원공고 1건",
       "last_count": 1
     },
@@ -81,7 +81,7 @@
         }
       },
       "active_ids": [],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "페이지는 정상이나 지정 키워드 없음",
       "last_count": 0
     },
@@ -92,7 +92,7 @@
       "baseline_ready": true,
       "seen_ever": {},
       "active_ids": [],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "현재 채용 공고 없음",
       "last_count": 0
     },
@@ -108,7 +108,7 @@
           "posted_at": "2026-07-13",
           "deadline": "2026-09-11",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         },
         "t1:esports-t1-t1-base-camp-강남점-점장:2026-07-13": {
           "title": "[Esports T1] T1 Base Camp 강남점 점장",
@@ -116,7 +116,7 @@
           "posted_at": "2026-07-13",
           "deadline": "2026-09-11",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         },
         "t1:esports-t1-t1-base-camp-강남점-셰프:2026-07-13": {
           "title": "[Esports T1] T1 Base Camp 강남점 셰프",
@@ -124,7 +124,7 @@
           "posted_at": "2026-07-13",
           "deadline": "2026-09-11",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         },
         "t1:esports-t1-partnership-manager:2026-07-03": {
           "title": "[Esports T1] Partnership Manager",
@@ -132,7 +132,7 @@
           "posted_at": "2026-07-03",
           "deadline": "2026-08-02",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         }
       },
       "active_ids": [
@@ -141,7 +141,7 @@
         "t1:esports-t1-t1-base-camp-강남점-셰프:2026-07-13",
         "t1:esports-t1-partnership-manager:2026-07-03"
       ],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "활성 공고 4건",
       "last_count": 4
     },
@@ -157,7 +157,7 @@
           "posted_at": "",
           "deadline": "",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         },
         "geng:greeting:222900": {
           "title": "(경력) 교육 프로그램 상담 및 세일즈 담당 사원 / Education Program Sales Associate",
@@ -165,7 +165,7 @@
           "posted_at": "",
           "deadline": "",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         },
         "geng:greeting:222447": {
           "title": "(경력) 시니어 마케팅 매니저 (팬 그로스 & 액티베이션) / Senior Marketing Manager, Fan Growth & Activation",
@@ -173,7 +173,7 @@
           "posted_at": "",
           "deadline": "",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         },
         "geng:greeting:219927": {
           "title": "(경력) 해외 대학 입시 컨설턴트 / International Admissions Consultant",
@@ -181,7 +181,7 @@
           "posted_at": "",
           "deadline": "",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         },
         "geng:greeting:207038": {
           "title": "(경력) 머천다이징 세일즈 매니저 / MD Sales Manager (과장급)",
@@ -189,7 +189,7 @@
           "posted_at": "",
           "deadline": "",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         },
         "geng:greeting:203303": {
           "title": "(경력) 퍼포먼스 마케터(그로스 마케팅) / Performance Marketer(Growth Marketing) [Marketing&Sales Team]",
@@ -197,7 +197,7 @@
           "posted_at": "",
           "deadline": "",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         },
         "geng:greeting:202795": {
           "title": "(신입/경력) 미국 중·고등 교육 프로그램 기획 및 운영 담당 / International School Program Manager",
@@ -205,7 +205,7 @@
           "posted_at": "",
           "deadline": "",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         },
         "geng:greeting:172284": {
           "title": "(경력) 마케팅 사원 / Marketing Associate [Marketing Team]",
@@ -213,7 +213,7 @@
           "posted_at": "",
           "deadline": "",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         }
       },
       "active_ids": [
@@ -226,7 +226,7 @@
         "geng:greeting:202795",
         "geng:greeting:172284"
       ],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "실제 공고 8건",
       "last_count": 8
     },
@@ -237,27 +237,27 @@
       "baseline_ready": true,
       "seen_ever": {
         "dplus_kia:jobkorea:49579524": {
-          "title": "[Dplus KIA] 조리장 채용(경력 3년 이상) 경력 서울 고졸↑ D-22 조리사",
+          "title": "[Dplus KIA] 조리장 채용(경력 3년 이상) 경력 서울 고졸↑ D-21 조리사",
           "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49579524?Oem_Code=C1&sc=225",
           "posted_at": "",
           "deadline": "",
           "first_seen_at": "2026-07-20T12:41:39+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         },
         "dplus_kia:jobkorea:49628870": {
-          "title": "[Dplus KIA] 조리사 채용 경력 서울 고졸↑ D-30 조리사",
+          "title": "[Dplus KIA] 조리사 채용 경력 서울 고졸↑ D-29 조리사",
           "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49628870?Oem_Code=C1&sc=225",
           "posted_at": "",
           "deadline": "",
           "first_seen_at": "2026-07-22T12:20:09+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         }
       },
       "active_ids": [
         "dplus_kia:jobkorea:49628870",
         "dplus_kia:jobkorea:49579524"
       ],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "실제 공고 2건",
       "last_count": 2
     },
@@ -268,7 +268,7 @@
       "baseline_ready": true,
       "seen_ever": {},
       "active_ids": [],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "공식 도메인 검색색인 0건 · 직접 사이트보다 반영이 늦을 수 있음",
       "last_count": 0
     },
@@ -284,7 +284,7 @@
           "posted_at": "",
           "deadline": "",
           "first_seen_at": "2026-07-19T01:38:33+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         },
         "tencent:post:10002894": {
           "title": "Tencent Cloud - Technical Account Manager (Korea)",
@@ -292,14 +292,14 @@
           "posted_at": "",
           "deadline": "",
           "first_seen_at": "2026-07-22T23:09:31+09:00",
-          "last_seen_at": "2026-07-22T23:09:31+09:00"
+          "last_seen_at": "2026-07-23T02:26:31+09:00"
         }
       },
       "active_ids": [
         "tencent:post:10002894",
         "tencent:post:10002613"
       ],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "Tencent 공식 API 한국 근무지 공고 2건",
       "last_count": 2
     },
@@ -310,7 +310,7 @@
       "baseline_ready": true,
       "seen_ever": {},
       "active_ids": [],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "공고 링크는 있으나 지역·근무 조건 불일치",
       "last_count": 0
     },
@@ -321,7 +321,7 @@
       "baseline_ready": true,
       "seen_ever": {},
       "active_ids": [],
-      "last_verified_at": "2026-07-22T23:09:31+09:00",
+      "last_verified_at": "2026-07-23T02:26:31+09:00",
       "last_message": "페이지는 정상이나 지정 키워드 없음",
       "last_count": 0
     },
@@ -337,5 +337,5 @@
       "last_count": 0
     }
   },
-  "last_run": "2026-07-22T23:09:31+09:00"
+  "last_run": "2026-07-23T02:26:31+09:00"
 }
