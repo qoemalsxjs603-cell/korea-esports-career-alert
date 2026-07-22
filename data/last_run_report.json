@@ -1,6 +1,6 @@
 {
   "version": 12,
-  "run_at": "2026-07-22T15:35:45+09:00",
+  "run_at": "2026-07-22T19:31:05+09:00",
   "diagnostic": false,
   "initialized_before_run": true,
   "verified_source_count": 14,
@@ -54,7 +54,7 @@
       "name": "충남콘텐츠진흥원",
       "status": "success",
       "verified": true,
-      "fetch_method": "browser",
+      "fetch_method": "requests",
       "parser_method": "ccon-static",
       "message": "진행 원공고 1건",
       "current_count": 1,
