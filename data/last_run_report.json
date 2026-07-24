@@ -1,10 +1,10 @@
 {
   "version": 12,
-  "run_at": "2026-07-24T22:57:59+09:00",
+  "run_at": "2026-07-25T00:37:14+09:00",
   "diagnostic": false,
   "initialized_before_run": true,
-  "verified_source_count": 14,
-  "unverified_source_count": 0,
+  "verified_source_count": 13,
+  "unverified_source_count": 1,
   "new_candidate_count": 0,
   "sources": [
     {
@@ -140,65 +140,16 @@
     {
       "source_id": "geng",
       "name": "Gen.G",
-      "status": "success",
-      "verified": true,
-      "fetch_method": "requests",
+      "status": "unverified",
+      "verified": false,
+      "fetch_method": "browser",
       "parser_method": "greeting-static",
-      "message": "실제 공고 8건",
-      "current_count": 8,
+      "message": "실제 /o/ 공고 링크를 찾지 못함",
+      "current_count": 0,
       "previous_active_count": 8,
       "source_baseline_existed": true,
       "new_candidate_count": 0,
-      "items": [
-        {
-          "item_id": "geng:greeting:225665",
-          "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
-          "posted_at": "",
-          "deadline": ""
-        },
-        {
-          "item_id": "geng:greeting:222900",
-          "title": "(경력) 교육 프로그램 상담 및 세일즈 담당 사원 / Education Program Sales Associate",
-          "posted_at": "",
-          "deadline": ""
-        },
-        {
-          "item_id": "geng:greeting:222447",
-          "title": "(경력) 시니어 마케팅 매니저 (팬 그로스 & 액티베이션) / Senior Marketing Manager, Fan Growth & Activation",
-          "posted_at": "",
-          "deadline": ""
-        },
-        {
-          "item_id": "geng:greeting:219927",
-          "title": "(경력) 해외 대학 입시 컨설턴트 / International Admissions Consultant",
-          "posted_at": "",
-          "deadline": ""
-        },
-        {
-          "item_id": "geng:greeting:207038",
-          "title": "(경력) 머천다이징 세일즈 매니저 / MD Sales Manager (과장급)",
-          "posted_at": "",
-          "deadline": ""
-        },
-        {
-          "item_id": "geng:greeting:203303",
-          "title": "(경력) 퍼포먼스 마케터(그로스 마케팅) / Performance Marketer(Growth Marketing) [Marketing&Sales Team]",
-          "posted_at": "",
-          "deadline": ""
-        },
-        {
-          "item_id": "geng:greeting:202795",
-          "title": "(신입/경력) 미국 중·고등 교육 프로그램 기획 및 운영 담당 / International School Program Manager",
-          "posted_at": "",
-          "deadline": ""
-        },
-        {
-          "item_id": "geng:greeting:172284",
-          "title": "(경력) 마케팅 사원 / Marketing Associate [Marketing Team]",
-          "posted_at": "",
-          "deadline": ""
-        }
-      ]
+      "items": []
     },
     {
       "source_id": "dplus_kia",
@@ -215,13 +166,13 @@
       "items": [
         {
           "item_id": "dplus_kia:jobkorea:49628870",
-          "title": "[Dplus KIA] 조리사 채용(경력 3년 이상) 경력 서울 고졸↑ D-28 조리사",
+          "title": "[Dplus KIA] 조리사 채용(경력 3년 이상) 경력 서울 고졸↑ D-27 조리사",
           "posted_at": "",
           "deadline": ""
         },
         {
           "item_id": "dplus_kia:jobkorea:49579524",
-          "title": "[Dplus KIA] 조리장 채용(경력 5년 이상) 경력 서울 고졸↑ D-20 조리사",
+          "title": "[Dplus KIA] 조리장 채용(경력 5년 이상) 경력 서울 고졸↑ D-19 조리사",
           "posted_at": "",
           "deadline": ""
         }
