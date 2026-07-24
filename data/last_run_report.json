@@ -1,10 +1,10 @@
 {
   "version": 12,
-  "run_at": "2026-07-24T08:02:38+09:00",
+  "run_at": "2026-07-24T12:20:54+09:00",
   "diagnostic": false,
   "initialized_before_run": true,
-  "verified_source_count": 14,
-  "unverified_source_count": 0,
+  "verified_source_count": 13,
+  "unverified_source_count": 1,
   "new_candidate_count": 0,
   "sources": [
     {
@@ -271,11 +271,11 @@
     {
       "source_id": "tencent_linkedin",
       "name": "텐센트 LinkedIn",
-      "status": "success",
-      "verified": true,
+      "status": "unverified",
+      "verified": false,
       "fetch_method": "browser",
       "parser_method": "generic-strict",
-      "message": "공고 링크는 있으나 지역·근무 조건 불일치",
+      "message": "공고 구조를 확정하지 못해 상태 보존",
       "current_count": 0,
       "previous_active_count": 0,
       "source_baseline_existed": true,
