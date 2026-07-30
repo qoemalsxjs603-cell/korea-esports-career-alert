@@ -1,6 +1,6 @@
 {
   "version": 12,
-  "run_at": "2026-07-30T11:49:14+09:00",
+  "run_at": "2026-07-30T15:33:11+09:00",
   "diagnostic": false,
   "initialized_before_run": true,
   "verified_source_count": 14,
@@ -54,7 +54,7 @@
       "name": "충남콘텐츠진흥원",
       "status": "success",
       "verified": true,
-      "fetch_method": "requests",
+      "fetch_method": "browser",
       "parser_method": "ccon-static",
       "message": "진행 원공고 1건",
       "current_count": 1,
@@ -242,8 +242,8 @@
       "verified": true,
       "fetch_method": "official-json-api",
       "parser_method": "tencent-official-api",
-      "message": "Tencent 공식 API 한국 근무지 공고 2건",
-      "current_count": 2,
+      "message": "Tencent 공식 API 한국 근무지 공고 1건",
+      "current_count": 1,
       "previous_active_count": 2,
       "source_baseline_existed": true,
       "new_candidate_count": 0,
@@ -251,12 +251,6 @@
         {
           "item_id": "tencent:post:10002894",
           "title": "Tencent Cloud - Technical Account Manager (Korea)",
-          "posted_at": "",
-          "deadline": ""
-        },
-        {
-          "item_id": "tencent:post:10002613",
-          "title": "Tencent Cloud-Solution Architect, Big Data-South Korea",
           "posted_at": "",
           "deadline": ""
         }
