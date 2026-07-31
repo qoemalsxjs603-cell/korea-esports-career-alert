@@ -1,11 +1,11 @@
 {
   "version": 12,
-  "run_at": "2026-07-31T12:32:00+09:00",
+  "run_at": "2026-07-31T15:49:50+09:00",
   "diagnostic": false,
   "initialized_before_run": true,
-  "verified_source_count": 14,
-  "unverified_source_count": 0,
-  "new_candidate_count": 0,
+  "verified_source_count": 13,
+  "unverified_source_count": 1,
+  "new_candidate_count": 1,
   "sources": [
     {
       "source_id": "krafton",
@@ -144,15 +144,21 @@
       "verified": true,
       "fetch_method": "requests",
       "parser_method": "greeting-static",
-      "message": "실제 공고 8건",
-      "current_count": 8,
+      "message": "실제 공고 9건",
+      "current_count": 9,
       "previous_active_count": 8,
       "source_baseline_existed": true,
-      "new_candidate_count": 0,
+      "new_candidate_count": 1,
       "items": [
         {
           "item_id": "geng:greeting:225665",
           "title": "학원 리셉션 및 MD샵 고객 응대 및 안내 아르바이트",
+          "posted_at": "",
+          "deadline": ""
+        },
+        {
+          "item_id": "geng:greeting:224790",
+          "title": "(신입) HR 인턴 / HR Intern",
           "posted_at": "",
           "deadline": ""
         },
@@ -203,23 +209,16 @@
     {
       "source_id": "dplus_kia",
       "name": "디플러스 기아",
-      "status": "success",
-      "verified": true,
-      "fetch_method": "browser",
-      "parser_method": "jobkorea-strict",
-      "message": "실제 공고 1건",
-      "current_count": 1,
+      "status": "unverified",
+      "verified": false,
+      "fetch_method": "failed",
+      "parser_method": "fetch",
+      "message": "RuntimeError: 요청 실패 [ConnectTimeout: HTTPSConnectionPool(host='www.jobkorea.co.kr', port=443): Max retries exceeded with url: /company/45145639/recruit (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jobkorea.co.kr', port=443) at 0x7f30c7b605f0>, 'Connection to www.jobkorea.co.kr timed out. (connect timeout=30)'))] / 브라우저 실패 [TimeoutError: Page.goto: Timeout 50000ms exceeded.\nCall log:\n  - navigating to \"https://www.jobkorea.co.kr/company/45145639/recruit\", waiting until \"domcontentloaded\"\n]",
+      "current_count": 0,
       "previous_active_count": 1,
       "source_baseline_existed": true,
       "new_candidate_count": 0,
-      "items": [
-        {
-          "item_id": "dplus_kia:jobkorea:49628870",
-          "title": "[Dplus KIA] 조리사 채용(경력 3년 이상) 경력 서울 고졸↑ D-21 조리사",
-          "posted_at": "",
-          "deadline": ""
-        }
-      ]
+      "items": []
     },
     {
       "source_id": "hanwha",
