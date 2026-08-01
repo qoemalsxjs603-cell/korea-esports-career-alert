@@ -1,10 +1,10 @@
 {
   "version": 12,
-  "run_at": "2026-08-01T12:31:31+09:00",
+  "run_at": "2026-08-01T15:37:27+09:00",
   "diagnostic": false,
   "initialized_before_run": true,
-  "verified_source_count": 13,
-  "unverified_source_count": 1,
+  "verified_source_count": 14,
+  "unverified_source_count": 0,
   "new_candidate_count": 0,
   "sources": [
     {
@@ -244,16 +244,23 @@
     {
       "source_id": "tencent",
       "name": "텐센트 공식 채용",
-      "status": "unverified",
-      "verified": false,
+      "status": "success",
+      "verified": true,
       "fetch_method": "official-json-api",
       "parser_method": "tencent-official-api",
-      "message": "ConnectTimeout: HTTPSConnectionPool(host='careers.tencent.com', port=443): Max retries exceeded with url: /tencentcareer/api/post/Query?timestamp=1785555141762&cityId=&bgIds=&productId=&categoryId=&parentCategoryId=&attrId=&keyword=&pageIndex=1&pageSize=100&language=en-us&area=us&countryId=701 (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.tencent.com', port=443) at 0x7f2b6565ba10>, 'Connection to careers.tencent.com timed out. (connect timeout=30)')) / ConnectTimeout: HTTPSConnectionPool(host='careers.tencent.com', port=443): Max retries exceeded with url: /tencentcareer/api/post/Query?timestamp=1785555141762&cityId=&bgIds=&productId=&categoryId=&parentCategoryId=&attrId=&keyword=Korea&pageIndex=1&pageSize=100&language=en-us&area=us&countryId= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.tencent.com', port=443) at 0x7f2b6560d5b0>, 'Connection to careers.tencent.com timed out. (connect timeout=30)')) / ConnectTimeout: HTTPSConnectionPool(host='careers.tencent.com', port=443): Max retries exceeded with url: /tencentcareer/api/post/Query?timestamp=1785555141762&cityId=&bgIds=&productId=&categoryId=&parentCategoryId=&attrId=&keyword=&pageIndex=1&pageSize=100&language=en-us&area=us&countryId= (Caused by ConnectTimeoutError(<HTTPSConnection(host='careers.tencent.com', port=443) at 0x7f2b6560dd60>, 'Connection to careers.tencent.com timed out. (connect timeout=30)'))",
-      "current_count": 0,
+      "message": "Tencent 공식 API 한국 근무지 공고 1건",
+      "current_count": 1,
       "previous_active_count": 1,
       "source_baseline_existed": true,
       "new_candidate_count": 0,
-      "items": []
+      "items": [
+        {
+          "item_id": "tencent:post:10002894",
+          "title": "Tencent Cloud - Technical Account Manager (Korea)",
+          "posted_at": "",
+          "deadline": ""
+        }
+      ]
     },
     {
       "source_id": "tencent_linkedin",
