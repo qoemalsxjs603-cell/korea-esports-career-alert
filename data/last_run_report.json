@@ -1,10 +1,10 @@
 {
   "version": 12,
-  "run_at": "2026-08-04T04:48:24+09:00",
+  "run_at": "2026-08-04T06:10:58+09:00",
   "diagnostic": false,
   "initialized_before_run": true,
-  "verified_source_count": 14,
-  "unverified_source_count": 0,
+  "verified_source_count": 13,
+  "unverified_source_count": 1,
   "new_candidate_count": 0,
   "sources": [
     {
@@ -87,11 +87,11 @@
     {
       "source_id": "nongshim_esports",
       "name": "농심이스포츠",
-      "status": "success",
-      "verified": true,
-      "fetch_method": "requests",
-      "parser_method": "saramin-static",
-      "message": "현재 채용 공고 없음",
+      "status": "unverified",
+      "verified": false,
+      "fetch_method": "failed",
+      "parser_method": "fetch",
+      "message": "RuntimeError: 요청 실패 [ConnectTimeout: HTTPSConnectionPool(host='www.saramin.co.kr', port=443): Max retries exceeded with url: /zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.saramin.co.kr', port=443) at 0x7fbf76bc4e60>, 'Connection to www.saramin.co.kr timed out. (connect timeout=30)'))] / 브라우저 실패 [TimeoutError: Page.goto: Timeout 50000ms exceeded.\nCall log:\n  - navigating to \"https://www.saramin.co.kr/zf_user/company-info/view-inner-recruit?csn=UGFiRWFsZjJJbXgvR0NLY3JrNU80QT09\", waiting until \"domcontentloaded\"\n]",
       "current_count": 0,
       "previous_active_count": 0,
       "source_baseline_existed": true,
