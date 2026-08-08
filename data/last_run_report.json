@@ -1,6 +1,6 @@
 {
   "version": 12,
-  "run_at": "2026-08-09T03:46:05+09:00",
+  "run_at": "2026-08-09T05:36:58+09:00",
   "diagnostic": false,
   "initialized_before_run": true,
   "verified_source_count": 13,
@@ -200,7 +200,7 @@
       "verified": false,
       "fetch_method": "failed",
       "parser_method": "fetch",
-      "message": "RuntimeError: 요청 실패 [ConnectTimeout: HTTPSConnectionPool(host='www.jobkorea.co.kr', port=443): Max retries exceeded with url: /company/45145639/recruit (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jobkorea.co.kr', port=443) at 0x7f11e1280fb0>, 'Connection to www.jobkorea.co.kr timed out. (connect timeout=30)'))] / 브라우저 실패 [TimeoutError: Page.goto: Timeout 50000ms exceeded.\nCall log:\n  - navigating to \"https://www.jobkorea.co.kr/company/45145639/recruit\", waiting until \"domcontentloaded\"\n]",
+      "message": "RuntimeError: 요청 실패 [ConnectTimeout: HTTPSConnectionPool(host='www.jobkorea.co.kr', port=443): Max retries exceeded with url: /company/45145639/recruit (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.jobkorea.co.kr', port=443) at 0x7f0d09b98500>, 'Connection to www.jobkorea.co.kr timed out. (connect timeout=30)'))] / 브라우저 실패 [TimeoutError: Page.goto: Timeout 50000ms exceeded.\nCall log:\n  - navigating to \"https://www.jobkorea.co.kr/company/45145639/recruit\", waiting until \"domcontentloaded\"\n]",
       "current_count": 0,
       "previous_active_count": 2,
       "source_baseline_existed": true,
